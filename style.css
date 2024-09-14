@@ -1,0 +1,125 @@
+:root {
+	
+}
+/* FONTS */
+@font-face {
+		font-family: "Pizza Tutorial"; 
+		src: url("font/Pizza Tutorial.ttf") format("truetype"); /*https://drive.google.com/file/d/1MVQ8b1N8qh_UmNnUoJb6s_4N4e0uCMHR/view*/
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		font-smooth: never;
+		-webkit-font-smoothing: none;
+}
+@font-face {
+		font-family: "Small Pizza"; 
+		src: url("font/Small Pizza Inline.ttf") format("truetype"); /*https://drive.google.com/file/d/1MVQ8b1N8qh_UmNnUoJb6s_4N4e0uCMHR/view*/
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		font-smooth: never;
+		-webkit-font-smoothing: none;
+}
+@font-face {
+		font-family: "Large Pizza"; 
+		src: url("font/Big Pizza Inline.ttf") format("truetype"); /*https://drive.google.com/file/d/1MVQ8b1N8qh_UmNnUoJb6s_4N4e0uCMHR/view*/
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		font-smooth: never;
+		-webkit-font-smoothing: none;
+}
+/* ANIMATIONS */
+@keyframes bgScroll-square {
+	0% {
+		background-position: 0 0;
+	}
+	100% {
+		background-position: -400px -400px;
+	}
+}
+
+/* STYLING */
+a {
+	
+}
+html {
+	background-color: #e85098;
+	background-image: url(img/PWP-scrolling-fade.png);
+	animation: bgScroll-square 14s linear infinite;
+}
+html, body {
+	font-family: "Pizza Tutorial";
+	line-height: 1.5;
+	font-size: 22px;
+}
+body {
+	margin: 1rem;
+}
+blockquote {
+	
+}
+h1, h2, h3 {
+	font-family: "Large Pizza";
+}
+h4, h5, h6 {
+	font-family: "Small Pizza";
+}
+header {
+	text-align: center;
+}
+nav {
+	margin-bottom: -4px;
+	text-align: center;
+}
+nav>ul {
+	list-style: none;
+	margin-bottom: 0;
+}
+nav>ul>li {
+	border: 2px solid transparent;
+	border-top: 12px solid transparent;
+	background-clip: padding-box;
+	display: inline-block;
+	font-family: "Small Pizza";
+	max-size: 128px;
+	padding: 0.2em 0.5em 0.3em;
+}
+nav>ul>li:nth-child(1) {
+	background-color: #58c000;
+	border-image: url(img/tab1.png) 16 / 16px repeat repeat;
+}
+nav>ul>li:nth-child(2) {
+	background-color: #e09000;
+	border-image: url(img/tab2.png) 16 / 16px repeat repeat;
+}
+nav>ul>li:nth-child(3) {
+	background-color: #ec8f8f;
+	border-image: url(img/tab3.png) 16 / 16px repeat repeat;
+}
+nav>ul>li:nth-child(4) {
+	background-color: #fda3f1;
+	border-image: url(img/tab4.png) 16 / 16px repeat repeat;
+}
+nav>ul>li>a {
+	color: black;
+	text-decoration: none;
+}
+.pageBody {
+	background-color: #f8e080;
+	border: 3px solid transparent;
+	border-image: url(img/pageBody.png) 16 / 16px repeat repeat;
+	background-clip: padding-box;
+	padding: 0.5em 3em;
+	margin: 0 15%;
+}
+@media only screen and (max-width: 1920px) {
+	.pageBody {
+		margin: 0 10%;
+	}
+}
+@media only screen and (max-width: 640px) {
+	.pageBody {
+		margin: 0 5%;
+	}
+}
