@@ -109,7 +109,10 @@ nav>ul {
 	margin-left: -32px;
 	z-index: 0;
 }
-nav>ul>a {
+nav>ul>li {
+	display: inline-block;
+}
+nav>ul>li>a {
 	border: 2px solid transparent;
 	border-top: 12px solid transparent;
 	background-clip: padding-box;
@@ -119,50 +122,48 @@ nav>ul>a {
 }
 
 /* Tabs! */
-nav>ul>a:nth-child(1) {
+nav>ul>li:nth-child(1)>a {
 	background-color: #58c000;
 	border-image: url(img/tab1.png) 16 / 16px round round;
 	transition: 0.5s ease;
 }
-nav>ul>a:nth-child(1):hover {
+nav>ul>li:nth-child(1):hover>a {
 	transition: 0.3s ease;
 	transform: translateY(-10px) translateX(-5px) rotate(-5deg);
 }
-nav>ul>a:nth-child(2) {
+nav>ul>li:nth-child(2)>a {
 	background-color: #e09000;
 	border-image: url(img/tab2.png) 16 / 16px round round;
 	transition: 0.5s ease;
 }
-nav>ul>a:nth-child(2):hover {
+nav>ul>li:nth-child(2):hover>a {
 	transition: 0.3s ease;
 	transform: translateY(-12px) translateX(7px) rotate(4deg);
 }
-nav>ul>a:nth-child(3) {
+nav>ul>li:nth-child(3)>a {
 	background-color: #ec8f8f;
 	border-image: url(img/tab3.png) 16 / 16px round round;
 	transition: 0.5s ease;
 }
-nav>ul>a:nth-child(3):hover {
+nav>ul>li:nth-child(3)>a:hover {
 	transition: 0.3s ease;
 	transform: translateY(-15px) translateX(2px) rotate(2deg);
 }
-nav>ul>a:nth-child(4) {
+nav>ul>li:nth-child(4)>a {
 	background-color: #fda3f1;
 	border-image: url(img/tab4.png) 16 / 16px round round;
 	transition: 0.5s ease;
 }
-nav>ul>a:nth-child(4):hover {
+nav>ul>li:nth-child(4)>a:hover {
 	transition: 0.3s ease;
 	transform: translateY(-13px) translateX(-2px) rotate(-3deg);
 }
-nav>ul>a {
+nav>ul>li>a {
 	color: black;
 	text-decoration: none;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	background-color: blue;
-
 }
 ol {
 	padding-left: 2em;
