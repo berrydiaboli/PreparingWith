@@ -48,6 +48,40 @@ html, body {
 body {
 	margin: 1rem;
 }
+details {
+	
+}
+details>summary {
+	cursor: pointer;
+}
+details, figure, footer {
+	background-color: #f8f8d0;
+	border: 3px solid transparent;
+	border-image: url(img/noteBorder.png) 16 / 16px round round;
+	background-clip: padding-box;
+	padding: 0.5em 1em;
+}
+figure {
+	margin: 1em 0;
+}
+figure>img {
+	max-width: 600px;
+	height: auto;
+	display: block;
+	margin: 0.5em auto 1em;
+}
+figure, footer {
+	width: fit-content;
+}
+footer {
+	text-align: center;
+	margin: -5px auto 0;
+	font-family: "Small Pizza";
+	font-size: 0.8em;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 1rem 0;
+}
 h1, h2, h3 {
 	font-family: "Large Pizza";
 }
@@ -57,9 +91,12 @@ h4, h5, h6 {
 header {
 	text-align: center;
 }
-
 header>img {
 	filter: drop-shadow(2px 2px 0px rgb(0, 0, 0));
+}
+hr {
+	border-bottom: 2px solid black;
+	border-image: url(img/PTWiki-underlineborder.png) 0 0 2 0 / 0 0 2px 0 round round;
 }
 
 nav {
@@ -84,39 +121,39 @@ nav>ul>a {
 /* Tabs! */
 nav>ul>a:nth-child(1) {
 	background-color: #58c000;
-	border-image: url(img/tab1.png) 16 / 16px repeat repeat;
+	border-image: url(img/tab1.png) 16 / 16px round round;
 	transition: 0.5s ease;
 }
 nav>ul>a:nth-child(1):hover {
 	transition: 0.3s ease;
-	transform: translateY(-25px) translateX(-10px) rotate(-5deg);
+	transform: translateY(-10px) translateX(-5px) rotate(-5deg);
 }
 nav>ul>a:nth-child(2) {
 	background-color: #e09000;
-	border-image: url(img/tab2.png) 16 / 16px repeat repeat;
+	border-image: url(img/tab2.png) 16 / 16px round round;
 	transition: 0.5s ease;
 }
 nav>ul>a:nth-child(2):hover {
 	transition: 0.3s ease;
-	transform: translateY(-17px) translateX(7px) rotate(7deg);
+	transform: translateY(-12px) translateX(7px) rotate(4deg);
 }
 nav>ul>a:nth-child(3) {
 	background-color: #ec8f8f;
-	border-image: url(img/tab3.png) 16 / 16px repeat repeat;
+	border-image: url(img/tab3.png) 16 / 16px round round;
 	transition: 0.5s ease;
 }
 nav>ul>a:nth-child(3):hover {
 	transition: 0.3s ease;
-	transform: translateY(-24px) translateX(2px) rotate(2deg);
+	transform: translateY(-15px) translateX(2px) rotate(2deg);
 }
 nav>ul>a:nth-child(4) {
 	background-color: #fda3f1;
-	border-image: url(img/tab4.png) 16 / 16px repeat repeat;
+	border-image: url(img/tab4.png) 16 / 16px round round;
 	transition: 0.5s ease;
 }
 nav>ul>a:nth-child(4):hover {
 	transition: 0.3s ease;
-	transform: translateY(-15px) translateX(-2px) rotate(-3deg);
+	transform: translateY(-13px) translateX(-2px) rotate(-3deg);
 }
 nav>ul>a {
 	color: black;
@@ -127,11 +164,27 @@ nav>ul>a {
 	background-color: blue;
 
 }
+ol {
+	padding-left: 2em;
+}
+ol, ul {
+	margin: 0.8em 0;
+}
+ul {
+	padding-left: 1em;
+}
+p {
+	margin: 1em 0;
+}
+s {
+	opacity: 0.5;
+}
 .pageBody {
 	position: relative;
 	background-color: #f8e080;
 	border: 3px solid transparent;
-	border-image: url(img/pageBody.png) 16 / 16px repeat repeat;
+	border-left: 20px solid transparent;
+	border-image: url(img/pageBody.png) 18 18 18 22 / 18px 18px 18px 22px round round;
 	background-clip: padding-box;
 	padding: 0.5em 3em;
 	margin: 0 15%;
