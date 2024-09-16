@@ -35,6 +35,12 @@
 }
 
 /* STYLING */
+a {
+	color: #A80860;
+}
+a:hover {
+	color: #E85098;
+}
 html {
 	background-color: #e85098;
 	background-image: url(img/PWP-scrolling-fade.png);
@@ -45,6 +51,12 @@ html, body {
 	line-height: 1.5;
 	font-size: 22px;
 }
+iframe {
+	width: 100%;
+	height: auto;
+	max-width: 540px;
+	aspect-ratio: 16/9;
+}
 body {
 	margin: 1rem;
 }
@@ -54,7 +66,7 @@ details {
 details>summary {
 	cursor: pointer;
 }
-details, figure, footer {
+details, figure, footer, .stickyNote {
 	background-color: #f8f8d0;
 	border: 3px solid transparent;
 	border-image: url(img/noteBorder.png) 16 / 16px round round;
@@ -69,6 +81,15 @@ figure>img {
 	height: auto;
 	display: block;
 	margin: 0.5em auto 1em;
+}
+figure>figcaption>details {
+	border: none;
+	border-image: none;
+	background-color: transparent;
+	padding: 0;
+}
+figure>figcaption>details>p {
+	margin: 0.5em 0;
 }
 figure, footer {
 	width: fit-content;
@@ -159,11 +180,13 @@ nav>ul>li:nth-child(4)>a:hover {
 	transform: translateY(-13px) translateX(-2px) rotate(-3deg);
 }
 nav>ul>li>a {
-	color: black;
 	text-decoration: none;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
+}
+nav>ul>li>a , nav>ul>li>a:hover {
+	color: black;
 }
 ol {
 	padding-left: 2em;
@@ -180,6 +203,17 @@ p {
 s {
 	opacity: 0.5;
 }
+.flex {
+	display: flex;
+	flex-flow: row wrap;
+	gap: 10px;
+	align-items: flex-start;
+	align-content: flex-start;
+	justify-content: flex-start;
+}
+.stickyNote {
+	width: fit-content;
+}
 .pageBody {
 	position: relative;
 	background-color: #f8e080;
@@ -190,6 +224,36 @@ s {
 	padding: 0.5em 3em;
 	margin: 0 15%;
 	z-index: 1;
+}
+
+/*STAFF PAGE*/
+.staffHolder.flex, .videoHolder.flex {
+	justify-content: center;
+	gap: 20px;
+}
+.staffHolder>figure {
+	flex-basis: 200px;
+}
+.staffHolder>figure>img {
+	max-height: 200px;
+	width: auto;
+	height: 100%;
+	height: auto;
+}
+.staffHolder>figure>figcaption>h5, .staffHolder>figure>figcaption>p {
+	margin: 0.5em 0;
+}
+.videoHolder {
+	margin-bottom: 1rem;
+}
+.videoHolder>figure {
+	flex-basis: 600px;
+	margin: 0;
+}
+.videoHolder>figure>iframe {
+	max-width: 540px;
+	display: block;
+	margin: 0.5rem auto 0.8em;
 }
 
 /* Browser Sizes */
