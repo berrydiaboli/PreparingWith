@@ -34,6 +34,21 @@
 	}
 }
 
+@keyframes LogoWOAH {
+	0% {
+		transform: rotate(0deg);
+	}
+	25% {
+		transform: scale(1.05) rotate(-3deg) scaleX(1.05);
+	}
+	50% {
+		transform: scale(1) rotate(0deg) scaleX(0.95);
+	}
+	75% {
+		transform: scale(1.05) rotate(3deg) scaleX(1.05);
+	}
+}
+
 /* STYLING */
 a {
 	color: #A80860;
@@ -58,10 +73,10 @@ iframe {
 	aspect-ratio: 16/9;
 }
 body {
-	margin: 1rem;
-}
-details {
-	
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
 }
 details>summary {
 	cursor: pointer;
@@ -95,10 +110,13 @@ figure, footer {
 	width: fit-content;
 }
 footer {
+	display: inline-block;
 	text-align: center;
-	margin: -5px auto 0;
 	font-family: "Small Pizza";
 	font-size: 0.8em;
+	transform: rotate(1.5deg);
+	z-index: 2;
+	margin-top: -20px;
 }
 h1, h2, h3, h4, h5, h6 {
 	margin: 1rem 0;
@@ -111,6 +129,9 @@ h4, h5, h6 {
 }
 header {
 	text-align: center;
+}
+header:hover {
+	animation: LogoWOAH 1s linear infinite;
 }
 header>img {
 	filter: drop-shadow(2px 2px 0px rgb(0, 0, 0));
@@ -146,6 +167,7 @@ nav>ul>li>a {
 nav>ul>li:nth-child(1)>a {
 	background-color: #58c000;
 	border-image: url(img/tab1.png) 16 / 16px round round;
+	transform: rotate(1.8deg);
 	transition: 0.5s ease;
 }
 nav>ul>li:nth-child(1):hover>a {
@@ -155,6 +177,7 @@ nav>ul>li:nth-child(1):hover>a {
 nav>ul>li:nth-child(2)>a {
 	background-color: #e09000;
 	border-image: url(img/tab2.png) 16 / 16px round round;
+	transform: rotate(-3deg);
 	transition: 0.5s ease;
 }
 nav>ul>li:nth-child(2):hover>a {
@@ -164,6 +187,7 @@ nav>ul>li:nth-child(2):hover>a {
 nav>ul>li:nth-child(3)>a {
 	background-color: #ec8f8f;
 	border-image: url(img/tab3.png) 16 / 16px round round;
+	transform: rotate(1.5deg);
 	transition: 0.5s ease;
 }
 nav>ul>li:nth-child(3)>a:hover {
@@ -173,11 +197,12 @@ nav>ul>li:nth-child(3)>a:hover {
 nav>ul>li:nth-child(4)>a {
 	background-color: #fda3f1;
 	border-image: url(img/tab4.png) 16 / 16px round round;
+	transform: rotate(-3deg);
 	transition: 0.5s ease;
 }
 nav>ul>li:nth-child(4)>a:hover {
 	transition: 0.3s ease;
-	transform: translateY(-13px) translateX(-2px) rotate(-3deg);
+	transform: translateY(-10px) translateX(5px) rotate(2deg);
 }
 nav>ul>li>a {
 	text-decoration: none;
@@ -215,14 +240,13 @@ s {
 	width: fit-content;
 }
 .pageBody {
-	position: relative;
+	display: inline-block;
 	background-color: #f8e080;
 	border: 3px solid transparent;
 	border-left: 20px solid transparent;
 	border-image: url(img/pageBody.png) 18 18 18 22 / 18px 18px 18px 22px round round;
 	background-clip: padding-box;
 	padding: 0.5em 3em;
-	margin: 0 15%;
 	z-index: 1;
 }
 
@@ -263,24 +287,37 @@ s {
 	}
 }
 @media only screen and (max-width: 860px) {
+	html {
+		overflow-x: hidden;
+	}
 	.pageBody {
+		position: relative;
 		padding: 0.5em 1.5em;
+		border-image: url(img/pageBody-mobile.png) 18 18 18 22 / 18px 18px 18px 22px round round;
 		margin: 0;
 	}
 	body {
 		margin: 0;
+	}
+	footer {
+		width: 100%;
 	}
 }
 
 @media only screen and (max-width: 640px) {
+	html {
+		overflow-x: hidden;
+	}
 	.pageBody {
+		position: relative;
 		padding: 0.5em 1.5em;
 		margin: 0;
+		border-image: url(img/pageBody-mobile.png) 18 18 18 22 / 18px 18px 18px 22px round round;
 	}
 	body {
 		margin: 0;
 	}
-	nav>ul>a {
+	nav>ul>li>a {
 		border: 2px solid transparent;
 		border-top: 12px solid transparent;
 		background-clip: padding-box;
@@ -288,5 +325,8 @@ s {
 		font-family: "Small Pizza";
 		font-size: 0.9em;
 		padding: 0.2em 0.3em 1.8em;
+	}
+	footer {
+		width: 100%;
 	}
 }
