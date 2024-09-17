@@ -3,6 +3,9 @@
 	<head>
 		<link rel="icon" type="image/x-icon" href="./img/maurice.png">
 		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="musicplayerStyle.css">
+		<!-- Load FontAwesome icons for the music player cause I am lazy to slap img icons -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="language" content="en-US">
@@ -63,7 +66,39 @@
 			</ul>
 		</div>
 		<footer>
-			Pizza Tower &copy; Tour de Pizza 2023. Not affiliated with Tour de Pizza.
+			<div class="footercredits">Pizza Tower &copy; Tour deeeee Pizza 2023. Not affiliated with Tour de Pizza.</div>
+
+			      <!-- Music Player Stuff -->
+			<div class="musicbar">
+
+				<div class="details">
+				<div class="track-art"></div>
+				<div class="track-name">Track Name</div>
+				<div class="track-artist">Track Artist</div>
+				</div>
+
+				<div class="buttons">
+				<div class="prev-track" onclick="prevTrack()"><i class="fa fa-step-backward fa-1x"></i></div>
+				<div class="playpause-track" onclick="playpauseTrack()"><i class="fa fa-play-circle fa-2x"></i></div>
+				<div class="next-track" onclick="nextTrack()"><i class="fa fa-step-forward fa-1x"></i></div>
+				</div>
+
+				<div class="slider_container">
+				<div class="current-time">00:00</div>
+				<input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+				<div class="total-duration">00:00</div>
+				</div>
+
+				<div class="slider_container">
+				<i class="fa fa-volume-down"></i>
+				<input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
+				<i class="fa fa-volume-up"></i>
+				</div>
+
+				<!-- Load the main script for the player -->
+				<script src="js/MusicShuffler.js"></script>
+				<!-- Don't touch this again, you know what happened last time -->
+			</div>
 		</footer>
 	</body>
 	

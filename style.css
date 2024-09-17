@@ -81,7 +81,7 @@ body {
 details>summary {
 	cursor: pointer;
 }
-details, figure, footer, .stickyNote {
+details, figure, .footercredits, .stickyNote {
 	background-color: #f8f8d0;
 	border: 3px solid transparent;
 	border-image: url(img/noteBorder.png) 16 / 16px round round;
@@ -106,10 +106,11 @@ figure>figcaption>details {
 figure>figcaption>details>p {
 	margin: 0.5em 0;
 }
-figure, footer {
+figure, .footercredits {
 	width: fit-content;
 }
-footer {
+.footercredits {
+	position: relative;
 	display: inline-block;
 	text-align: center;
 	font-family: "Small Pizza";
@@ -250,6 +251,32 @@ s {
 	z-index: 1;
 }
 
+/*Footer stuff?*/
+
+.musicbar {
+	z-index: 3;
+    background-color: #deca4a;
+    width: 18%;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+	font-family: "Small Pizza";
+    max-width: 250px;
+    max-height: 250px;
+    min-width: 130px;
+    min-height: 130px;
+    opacity: 85%;
+    border-style:ridge;
+    border-color:#fafa3c;
+    border-width: 5px;
+}
+
 /*STAFF PAGE*/
 .staffHolder.flex, .videoHolder.flex {
 	justify-content: center;
@@ -299,7 +326,7 @@ s {
 	body {
 		margin: 0;
 	}
-	footer {
+	.footercredits {
 		width: 100%;
 	}
 }
@@ -326,7 +353,7 @@ s {
 		font-size: 0.9em;
 		padding: 0.2em 0.3em 1.8em;
 	}
-	footer {
+	.footercredits {
 		width: 100%;
 	}
 }
