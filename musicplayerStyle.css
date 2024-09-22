@@ -15,9 +15,9 @@
 
 .track-art {
 	z-index: -5;
-	height: 100%;
-	width: 100%;
-	bottom: 0px;
+	height: 200px;
+	width: 200px;
+	top: 0px;
 	position: absolute;
 	clip-path: inset(0px 0 0px 0);
 	background-size: cover;
@@ -47,10 +47,10 @@
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	text-shadow: -0.07em -0.07em 0 #FFF,
-				0.14em -0.07em 0 #FFF,
-				-0.07em 0.07em 0 #FFF,
-				0.14em 0.07em 0 #FFF;
+	text-shadow: -0.07em -0.07em 0 #000000,
+				0.14em -0.07em 0 #000000,
+				-0.07em 0.07em 0 #000000,
+				0.14em 0.07em 0 #000000;
 	padding: 0.2em 0;
 }
 .buttons>div {
@@ -102,17 +102,17 @@
 	padding: 0 0.5em;
 	color: black;
 	font-size: clamp(12px, 1vw, 16px);
-	text-shadow: -0.07em -0.07em 0 #FFF,
-				0.14em -0.07em 0 #FFF,
-				-0.07em 0.07em 0 #FFF,
-				0.14em 0.07em 0 #FFF;
+	text-shadow: -0.07em -0.07em 0 #000000,
+				0.14em -0.07em 0 #000000,
+				-0.07em 0.07em 0 #000000,
+				0.14em 0.07em 0 #000000;
 }
 i.fa-volume-down, i.fa-volume-up {
 	padding: 0 0.3em;
-	text-shadow: -0.5px -0.5px 0 #FFF,
-				0.5px -0.5px 0 #c5c5c5,
-				-0.5px 0.5px 0 #c5c5c5,
-				0.5px 0.5px 0 #FFF;
+	text-shadow: -0.5px -0.5px 0 #000000,
+				0.5px -0.5px 0 #000000,
+				-0.5px 0.5px 0 #000000,
+				0.5px 0.5px 0 #000000;
 }
 i.fa-play-circle, i.fa-pause-circle, i.fa-step-forward, i.fa-step-backward {
 	cursor: pointer;
