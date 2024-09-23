@@ -250,6 +250,7 @@ s {
 	border-image: url(img/pageBody.png) 18 18 18 22 / 18px 18px 18px 22px round round;
 	background-clip: padding-box;
 	padding: 0.5em 3em;
+	z-index: 1;
 }
 
 /*Footer stuff?*/
@@ -278,28 +279,31 @@ s {
 	width: 100%;
 	align-items: flex-start;
     background-color: #f8d0d1;
+	background-clip: padding-box;
 	gap: 10px;
 	transition: transform 0.3s ease;
+	transform: translateY(195px);
 }
 
 .footergroups.transformed {
-	transform: translateY(230px);
+	transform: translateY(0px);
 }
 
 .FooterTab {
 	position: fixed; 
 	left: 45%;
-	bottom: 20%;      
+	bottom: 150px;      
 	z-index: 2;
 	transition: transform 0.3s ease;
+	transform: translateY(185px);
 }
 
 .FooterTab.transformed {
-	transform: translateY(215px);
+	transform: translateY(0px);
 }
 
 .FooterTab>img {
-	transition: transform 0.3s ease;
+	transition: transform 0.2s ease;
 }
 
 .FooterTab>img:hover {
@@ -308,6 +312,15 @@ s {
 
 .musicsection {
 	width: 250px;
+	height: 100px;
+}
+
+/*CUSTOM ASSETS & ANIMATIONS */
+
+.peppinohit {
+	position: fixed;
+	z-index: 2;
+	transform: translateX(150px) translateY(-450px);
 }
 
 /*STAFF PAGE*/
