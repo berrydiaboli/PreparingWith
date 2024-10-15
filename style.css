@@ -56,6 +56,15 @@ a {
 a:hover {
 	color: #E85098;
 }
+blockquote {
+	background-clip: content-box;
+	background-color: white;
+	border: 1px solid black;
+	border-image: url(img/spr_tv_bubble-EDITED.gif) 30 / 30px round;
+	margin: 0.8rem 0;
+	padding: 15px 20px 18px;
+	width: fit-content;
+}
 html {
 	background-color: #e85098;
 	background-image: url(img/PWP-scrolling-fade.png);
@@ -87,6 +96,7 @@ details, figure, .footercredits, .stickyNote {
 	border: 3px solid transparent;
 	border-image: url(img/noteBorder.png) 16 / 16px round round;
 	background-clip: padding-box;
+	margin: 0.8rem 0;
 	padding: 0.5em 1em;
 }
 figure {
@@ -130,13 +140,13 @@ h1, h2, h3 {
 h4, h5, h6 {
 	font-family: "Small Pizza";
 }
-header {
+body>header {
 	text-align: center;
 }
-header:hover {
+body>header:hover {
 	animation: LogoWOAH 1s linear infinite;
 }
-header>img {
+body>header>img {
 	filter: drop-shadow(2px 2px 0px rgb(0, 0, 0));
 }
 hr {
@@ -231,6 +241,9 @@ p {
 s {
 	opacity: 0.5;
 }
+small {
+	font-size: 0.7em;
+}
 .flex {
 	display: flex;
 	flex-flow: row wrap;
@@ -251,6 +264,33 @@ s {
 	background-clip: padding-box;
 	padding: 0.5em 3em;
 	z-index: 1;
+}
+.faq.flex {
+	gap: 0.8rem;
+}
+.faq.flex>div {
+	flex-basis: 500px;
+	flex-grow: 1;
+	flex-shrink: 1;
+	margin: 0;
+}
+.faq .stickyNote {
+	width: auto;
+}
+.faq .stickyNote>header {
+	font-family: "Small Pizza";
+	font-size: 0.8rem;
+	border-bottom: 2px solid black;
+	border-image: url(img/PTWiki-underlineborder.png) 0 0 2 0 / 0 0 2px 0 round round;
+	margin: 0.8em 0 0.4em;
+	padding: 0 0 0.3em;
+}
+.faq .stickyNote>header, .faq .stickyNote>header>span {
+	border-bottom: 2px solid black;
+	border-image: url(img/PTWiki-underlineborder.png) 0 0 2 0 / 0 0 2px 0 round round;
+}
+.faq .stickyNote>p {
+	margin: 0.7em 0;
 }
 
 /*Footer stuff?*/
