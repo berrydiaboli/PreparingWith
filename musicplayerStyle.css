@@ -1,3 +1,12 @@
+@keyframes AlbumSpin {
+	0% {
+		transform: rotate(0deg)
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
 .player {
 	height: 100%;
 	display: flex;
@@ -15,22 +24,29 @@
 
 .track-art {
 	z-index: -5;
-	height: 200px;
-	width: 200px;
+	height: 300px;
+	width: 300px;
 	top: 0px;
+	opacity: 70%;
 	position: absolute;
 	clip-path: inset(0px 0 0px 0);
 	background-size: cover;
+	pointer-events: none;
 }
+
+.track-art.transformed {
+	animation: AlbumSpin 20s linear infinite;
+}
+
 .track-name, .track-artist {
 	text-align: center;
 	color: white;
 	position: relative;
 	text-transform: capitalize;
-	text-shadow: -0.07em -0.07em 0 #000,
-				0.14em -0.07em 0 #000,
-				-0.07em 0.07em 0 #000,
-				0.14em 0.07em 0 #000;
+	text-shadow: -1px -1px 0 #000000,
+				1px -1px 0 #000000,
+				-1px 1px 0 #000000,
+				1px 1px 0 #000000;
 }
 .track-name {
 	font-size: clamp(16px, 3vw, 28px);
@@ -43,26 +59,31 @@
 }
 .buttons {
 	display: flex;
-	gap: 0 0.5em;
+	gap: 0 1em;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	text-shadow: -0.07em -0.07em 0 #000000,
-				0.14em -0.07em 0 #000000,
-				-0.07em 0.07em 0 #000000,
-				0.14em 0.07em 0 #000000;
+	color: #FFF;
+	text-shadow: -1px -1px 0 #000000,
+				1px -1px 0 #000000,
+				-1px 1px 0 #000000,
+				1px 1px 0 #000000;
 	padding: 0.2em 0;
+	margin-top: 135px;
 }
 .buttons>div {
-	opacity: 0.8;
+	opacity: 1;
+	mix-blend-mode: normal;
 }
 .buttons>div:hover {
-	opacity: 1.0;
+	opacity: 0.6;
+	mix-blend-mode:hard-light;
 }
 .slider_container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	color:#FFF
 }
 
 /* Modify the appearance of the slider */
@@ -72,7 +93,7 @@
 	appearance: none;
 	height: 5px;
 	background: #FFF;
-	opacity: 0.7;
+	opacity: 1;
 	-webkit-transition: .2s;
 	transition: opacity .2s;
 }
@@ -100,19 +121,19 @@
 .current-time, .total-duration {
 	bottom: 0px;
 	padding: 0 0.5em;
-	color: black;
+	color: rgb(255, 255, 255);
 	font-size: clamp(12px, 1vw, 16px);
-	text-shadow: -0.07em -0.07em 0 #000000,
-				0.14em -0.07em 0 #000000,
-				-0.07em 0.07em 0 #000000,
-				0.14em 0.07em 0 #000000;
+	text-shadow: -1px -1px 0 #000000,
+				1px -1px 0 #000000,
+				-1px 1px 0 #000000,
+				1px 1px 0 #000000;
 }
 i.fa-volume-down, i.fa-volume-up {
 	padding: 0 0.3em;
-	text-shadow: -0.5px -0.5px 0 #000000,
-				0.5px -0.5px 0 #000000,
-				-0.5px 0.5px 0 #000000,
-				0.5px 0.5px 0 #000000;
+	text-shadow: -1px -1px 0 #000000,
+				1px -1px 0 #000000,
+				-1px 1px 0 #000000,
+				1px 1px 0 #000000;
 }
 i.fa-play-circle, i.fa-pause-circle, i.fa-step-forward, i.fa-step-backward {
 	cursor: pointer;

@@ -16,6 +16,8 @@ let track_index = 0;
 let isPlaying = false;
 let updateTimer;
 
+const AlbumAnimation = document.querySelectorAll('.track-art'); 
+
 // Create new audio element
 let curr_track = document.createElement('audio');
 
@@ -24,7 +26,7 @@ let track_list = [
 {
 	name: "NAME OF SONG",
 	artist: "ARTIST NAME",
-	image: "img/maurice.png",
+	image: "img/PWAlbum.png",
 	path: "music/SONG.mp3"
 }
 ];
@@ -74,12 +76,18 @@ function playTrack() {
 	curr_track.play();
 	isPlaying = true;
 	playpause_btn.innerHTML = '<i class="fa fa-pause-circle fa-2x"></i>';
+	AlbumAnimation.forEach((box) => {
+            box.classList.add('transformed');
+    });
 }
   
 function pauseTrack() {
 	curr_track.pause();
 	isPlaying = false;
 	playpause_btn.innerHTML = '<i class="fa fa-play-circle fa-2x"></i>';;
+	AlbumAnimation.forEach((box) => {
+		box.classList.remove('transformed');
+	});
 }
   
 function nextTrack() {
@@ -136,8 +144,3 @@ function seekUpdate() {
 	  total_duration.textContent = durationMinutes + ":" + durationSeconds;
 	}
 }
-
-		// Visualizer //
-
-
-// Scrapping this idea for now //
