@@ -314,7 +314,7 @@ small {
     background-color: #e3accf;
 	background-clip: padding-box;
 	transition: transform 0.3s ease;
-	transform: translateX(-300px);
+	transform: translateX(-306px);
 }
 
 .footergroups.transformed {
@@ -327,7 +327,7 @@ small {
 	bottom: 75px;      
 	z-index: 2;
 	transition: transform 0.3s ease;
-	transform: translateX(-15px);
+	transform: translateX(-20px);
 }
 
 .FooterTab.transformed {
