@@ -260,6 +260,26 @@ small {
 .stickyNote {
 	width: fit-content;
 }
+.stickyNote>.video, figure>.video {
+	position: relative;
+	width: 100%;
+	aspect-ratio: 16/9;
+	max-width: 540px;
+}
+.stickyNote>.video>.border, figure>.video>.border {
+	border: 2px solid transparent;
+	border-image: url(img/noteBorderInverse.png) 16 / 16px round round;
+	box-sizing: border-box;
+	position: absolute;
+	left: 0;
+	top: 0;
+	pointer-events: none;
+	width: 100%;
+	height: calc(100% - 12px);
+}
+figure>.video {
+	margin: 0 auto;
+}
 .pageBody {
 	display: inline-block;
 	background-color: #f8e080;
@@ -366,7 +386,7 @@ small {
 }
 /* LATEST VIDEO */
 #latestVideo {
-	flex-basis: 400px;
+	flex-basis: 500px;
 	flex-grow: 0;
 }
 #latestVideo.flex {
@@ -376,37 +396,6 @@ small {
 #latestVideo>h4 {
 	margin: 0 auto;
 	text-align: center;
-}
-#latestVideo>.video {
-	position: relative;
-	margin: 32px 15px 0 -15px;
-	width: 100%;
-}
-#latestVideo>.video>.antenna, #latestVideo>.video>.tvBorder {
-	position: absolute;
-}
-#latestVideo>.video>.antenna {
-	display: block;
-	background-size: cover;
-	transform: translateX(-50%);
-	top: -32px;
-	left: calc(50% + 15px);
-	content: url(img/tvAntenna.png);
-	width: calc(47px * 1);
-	height: calc(32px * 1);
-}
-#latestVideo>.video>.tvBorder {
-	border-image: url(img/tvBorder.png) 20 / 20px round round;
-	box-sizing: border-box;
-	width: calc(100% + 16px);
-	height: calc(100% - 8px);
-	left: 0;
-	top: 0;
-	pointer-events: none;
-	padding: 8px 4px 4px 14px;
-}
-#latestVideo>.video>iframe {
-	padding: 5px 0 0 10px;
 }
 #openingBlurb {
 	flex-basis: 250px;
