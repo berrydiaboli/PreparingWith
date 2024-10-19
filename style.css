@@ -253,6 +253,10 @@ small {
 	align-content: flex-start;
 	justify-content: flex-start;
 }
+.flex>div {
+	flex-grow: 1;
+	flex-shrink: 1;
+}
 .stickyNote {
 	width: fit-content;
 }
@@ -353,6 +357,65 @@ small {
 	position: fixed;
 	z-index: 2;
 	transform: translateX(150px) translateY(-450px);
+}
+
+/* HOME PAGE */
+#frontFlex {
+	gap: 10px 20px;
+	justify-content: center;
+}
+/* LATEST VIDEO */
+#latestVideo {
+	flex-basis: 400px;
+	flex-grow: 0;
+}
+#latestVideo.flex {
+	flex-flow: column;
+	gap: 0;
+}
+#latestVideo>h4 {
+	margin: 0 auto;
+	text-align: center;
+}
+#latestVideo>.video {
+	position: relative;
+	margin: 32px 15px 0 -15px;
+	width: 100%;
+}
+#latestVideo>.video>.antenna, #latestVideo>.video>.tvBorder {
+	position: absolute;
+}
+#latestVideo>.video>.antenna {
+	display: block;
+	background-size: cover;
+	transform: translateX(-50%);
+	top: -32px;
+	left: calc(50% + 15px);
+	content: url(img/tvAntenna.png);
+	width: calc(47px * 1);
+	height: calc(32px * 1);
+}
+#latestVideo>.video>.tvBorder {
+	border-image: url(img/tvBorder.png) 20 / 20px round round;
+	box-sizing: border-box;
+	width: calc(100% + 16px);
+	height: calc(100% - 8px);
+	left: 0;
+	top: 0;
+	pointer-events: none;
+	padding: 8px 4px 4px 14px;
+}
+#latestVideo>.video>iframe {
+	padding: 5px 0 0 10px;
+}
+#openingBlurb {
+	flex-basis: 250px;
+}
+#openingBlurb>p:first-of-type {
+	margin-top: 0;
+}
+#openingBlurb>p:last-of-type {
+	margin-bottom: 0;
 }
 
 /*STAFF PAGE*/
