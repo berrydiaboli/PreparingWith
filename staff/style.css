@@ -58,6 +58,13 @@
 	content: url(img/staff/true/lotus_hover.gif);
 }
 
+.iconHolder>.staffIcon#skl {
+	content: url(img/staff/true/skl_norm.gif);
+}
+.iconHolder>.staffIcon#skl:hover {
+	content: url(img/staff/true/skl_hover.gif);
+}
+
 .iconHolder>.staffIcon#skully {
 	content: url(img/staff/true/skully_norm.gif);
 }
