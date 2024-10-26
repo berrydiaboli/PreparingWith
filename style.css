@@ -257,6 +257,7 @@ small {
 	flex-grow: 1;
 	flex-shrink: 1;
 }
+/* Video & Icon borders */
 .stickyNote {
 	width: fit-content;
 }
@@ -267,6 +268,9 @@ small {
 	max-width: 540px;
 }
 .stickyNote>.video>.border, figure>.video>.border {
+	height: calc(100% - 12px);
+}
+.stickyNote>.video>.border, figure>.video>.border, figure>.iconHolder .border, .stickyNote>.iconHolder .border {
 	border: 2px solid transparent;
 	border-image: url(img/noteBorderInverse.png) 16 / 16px round round;
 	box-sizing: border-box;
@@ -275,11 +279,14 @@ small {
 	top: 0;
 	pointer-events: none;
 	width: 100%;
-	height: calc(100% - 12px);
+}
+figure>.iconHolder .border, .stickyNote>.iconHolder .border {
+	height: 100%;
 }
 figure>.video {
 	margin: 0 auto;
 }
+
 .pageBody {
 	display: inline-block;
 	background-color: #f8e080;
@@ -289,7 +296,11 @@ figure>.video {
 	background-clip: padding-box;
 	padding: 0.5em 3em;
 	z-index: 1;
+	flex-grow: 1;
+	flex-shrink: 1;
+	width: 100%;
 }
+/* FAQ */
 .faq.flex {
 	gap: 0.8rem;
 }
@@ -407,23 +418,7 @@ figure>.video {
 	margin-bottom: 0;
 }
 
-/*STAFF PAGE*/
-.staffHolder.flex, .videoHolder.flex {
-	justify-content: center;
-	gap: 20px;
-}
-.staffHolder>figure {
-	flex-basis: 200px;
-}
-.staffHolder>figure>img {
-	max-height: 200px;
-	width: auto;
-	height: 100%;
-	height: auto;
-}
-.staffHolder>figure>figcaption>h5, .staffHolder>figure>figcaption>p {
-	margin: 0.5em 0;
-}
+/* VIDEOS */
 .videoHolder {
 	margin-bottom: 1rem;
 }
@@ -435,6 +430,10 @@ figure>.video {
 	max-width: 540px;
 	display: block;
 	margin: 0.5rem auto 0.8em;
+}
+.videoHolder.flex {
+	justify-content: center;
+	gap: 20px;
 }
 
 /* Browser Sizes */

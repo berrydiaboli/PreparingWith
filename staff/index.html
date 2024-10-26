@@ -3,6 +3,7 @@
 	<head>
 		<link rel="icon" type="image/x-icon" href="./img/maurice.png">
 		<link rel="stylesheet" href="../style.css">
+		<link rel="stylesheet" href="style.css"> <!-- page exclusive style -->
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="language" content="en-US">
@@ -28,25 +29,22 @@
 		</nav>
 		<div class="pageBody">
 			<h2>Staff</h2>
-			<div class="flex staffHolder">
+			<div class="flex staffHolder" id="leads">
 				<figure>
-					<img src="../img/maurice.png" alt="" />
+					<div class="iconHolder">
+						<img class="staffIcon" src="../img/maurice.png" aria-hidden="true" />
+						<div class="border"></div>
+					</div>
 					<figcaption>
-						<h5>Producer</h5>
-						<p>This Guy</p>
-					</figcaption>
-				</figure>
-				<figure>
-					<img src="../img/maurice.png" alt="" />
-					<figcaption>
-						<h5>Coproducer</h5>
-						<p>That Guy</p>
+						<h5>Maurice</h5>
+						<p>What is his PROBLEM?</p>
 					</figcaption>
 				</figure>
 			</div>
+			<p style="text-align:center;"><small><a href="trueStaff.html" target="_parent">Okay, who actually made this?</a></small></p>
 		</div>
 		<footer>
-			Pizza Tower &copy; Tour de Pizza 2023. Not affiliated with Tour de Pizza.
+			<div class="footercredits">Pizza Tower &copy; Tour de Pizza 2023. Not affiliated with Tour de Pizza.</div>
 		</footer>
 	</body>
 	

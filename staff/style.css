@@ -1,0 +1,110 @@
+/* this is cause i wanna keep things Relatively Organized */
+.staffHolder.flex {
+	justify-content: center;
+	gap: 20px;
+}
+.staffHolder>figure {
+	flex-basis: 200px;
+}
+.staffHolder>figure>figcaption>h5, .staffHolder>figure>figcaption>p {
+	margin: 0.5em 0;
+}
+/* STAFF ICONS */
+.iconHolder {
+	position: relative;
+	width: fit-content;
+	margin: 0 auto;
+}
+.iconHolder>.staffIcon {
+	max-height: 100px;
+	width: auto;
+	height: 100%;
+	height: auto;
+	display: block;
+}
+/* ACTUAL STAFF ICONS */
+.iconHolder>.staffIcon#berry {
+	content: url(img/staff/true/berry_norm.gif);
+}
+.iconHolder>.staffIcon#berry:hover {
+	content: url(img/staff/true/berry_hover.gif);
+}
+
+.iconHolder>.staffIcon#fran {
+	content: url(img/staff/true/fran_norm.gif);
+}
+.iconHolder>.staffIcon#fran:hover {
+	content: url(img/staff/true/fran_hover.gif);
+}
+
+.iconHolder>.staffIcon#makee {
+	content: url(img/staff/true/makee_norm.gif);
+}
+.iconHolder>.staffIcon#makee:hover {
+	content: url(img/staff/true/makee_hover.gif);
+}
+
+.iconHolder>.staffIcon#ecuello {
+	content: url(img/staff/true/ecuello_norm.gif);
+}
+.iconHolder>.staffIcon#ecuello:hover {
+	content: url(img/staff/true/ecuello_hover.gif);
+}
+
+.iconHolder>.staffIcon#lotus {
+	content: url(img/staff/true/lotus_norm.gif);
+}
+.iconHolder>.staffIcon#lotus:hover {
+	content: url(img/staff/true/lotus_hover.gif);
+}
+
+.iconHolder>.staffIcon#skully {
+	content: url(img/staff/true/skully_norm.gif);
+}
+.iconHolder>.staffIcon#skully:hover {
+	content: url(img/staff/true/skully_hover.gif);
+}
+
+
+
+/* STAFF CREDIT LINKS */
+ul.creditLink {
+	padding: 0;
+	margin-bottom: 0.5em;
+	justify-content: center;
+	list-display: none;
+	display: flex;
+	flex-flow: row wrap;
+	gap: 5px;
+}
+ul.creditLink>li, ul.creditLink>li a {
+	display: block;
+}
+ul.creditLink>li a, ul.creditLink>li img {
+	height: 30px;
+	width: 30px;
+}
+ul.creditLink>li img {
+	content: url(img/credit/siteIcons.png);
+	object-fit: cover;
+	filter: invert(12%) sepia(75%) saturate(5341%) hue-rotate(317deg) brightness(87%) contrast(99%);
+	flex-basis: 30px;
+}
+ul.creditLink>li img:hover {
+	filter: invert(45%) sepia(34%) saturate(1311%) hue-rotate(283deg) brightness(94%) contrast(92%);
+}
+ul.creditLink>li img.twitter {
+	object-position: 0 0;
+}
+ul.creditLink>li img.bsky {
+	object-position: -31px 0;
+}
+ul.creditLink>li img.tumblr {
+	object-position: -62px 0;
+}
+ul.creditLink>li img.sheezy {
+	object-position: -93px 0;
+}
+ul.creditLink>li img.youtube {
+	object-position: -124px 0;
+}
