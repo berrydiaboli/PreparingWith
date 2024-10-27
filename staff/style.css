@@ -123,8 +123,6 @@
 	content: url(img/staff/true/skully_hover.gif);
 }
 
-
-
 /* STAFF CREDIT LINKS */
 ul.creditLink {
 	padding: 0;
@@ -165,4 +163,12 @@ ul.creditLink>li img.sheezy {
 }
 ul.creditLink>li img.youtube {
 	object-position: -124px 0;
+}
+
+/* SITE CREDITS */
+.flex#siteCredit {
+	
+}
+.flex#siteCredit>div {
+	flex-basis: 250px;
 }
