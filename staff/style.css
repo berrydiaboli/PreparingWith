@@ -6,6 +6,7 @@
 }
 .staffHolder>figure {
 	flex-basis: 200px;
+	text-align: center;
 }
 .staffHolder>figure>figcaption>h5, .staffHolder>figure>figcaption>p {
 	margin: 0.5em 0;
@@ -25,6 +26,20 @@
 }
 
 /* FAKE STAFF ICONS */
+#bucket .staffIcon {
+	content: url(img/staff/fake/bucket_norm.gif);
+}
+#bucket:hover .staffIcon {
+	content: url(img/staff/fake/bucket_hover.gif);
+}
+
+#fake .staffIcon {
+	content: url(img/staff/fake/fake_norm.gif);
+}
+#fake:hover .staffIcon {
+	content: url(img/staff/fake/fake_hover.gif);
+}
+
 #gusbrick .staffIcon {
 	content: url(img/staff/fake/gusbrick_norm.gif);
 }
@@ -32,11 +47,32 @@
 	content: url(img/staff/fake/gusbrick_hover.gif);
 }
 
+#incognito .staffIcon {
+	content: url(img/staff/fake/incognito_norm.gif);
+}
+#incognito:hover .staffIcon {
+	content: url(img/staff/fake/incognito_hover.gif);
+}
+
+#maurice .staffIcon {
+	content: url(img/staff/fake/maurice_norm.gif);
+}
+#maurice:hover .staffIcon {
+	content: url(img/staff/fake/maurice_hover.gif);
+}
+
 #noise .staffIcon {
 	content: url(img/staff/fake/noise_norm.gif);
 }
 #noise:hover .staffIcon {
 	content: url(img/staff/fake/noise_hover.gif);
+}
+
+#noisette .staffIcon {
+	content: url(img/staff/fake/noisette_norm.gif);
+}
+#noisette:hover .staffIcon {
+	content: url(img/staff/fake/noisette_hover.gif);
 }
 
 #pep .staffIcon {
@@ -70,6 +106,7 @@
 
 #carrot .staffIcon {
 	content: url(img/staff/true/carrot_norm.gif);
+	background-color: #A850F8; /* deep-dish 9 */
 }
 #carrot:hover .staffIcon {
 	content: url(img/staff/true/carrot_hover.gif);
