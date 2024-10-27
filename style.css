@@ -64,6 +64,20 @@ blockquote {
 	margin: 0.8rem 0;
 	padding: 15px 20px 18px;
 	width: fit-content;
+	overflow: hidden;
+}
+blockquote>.said {
+	float: right;
+	margin: -1em 0 0;
+}
+blockquote>.said:before {
+	content: "-";
+}
+blockquote>p:first-of-type {
+	margin-top: 0;
+}
+blockquote>p:last-of-type {
+	margin-bottom: 0;
 }
 html {
 	background-color: #e85098;
@@ -416,24 +430,6 @@ figure>.video {
 }
 #openingBlurb>p:last-of-type {
 	margin-bottom: 0;
-}
-
-/* VIDEOS */
-.videoHolder {
-	margin-bottom: 1rem;
-}
-.videoHolder>figure {
-	flex-basis: 600px;
-	margin: 0;
-}
-.videoHolder>figure>iframe {
-	max-width: 540px;
-	display: block;
-	margin: 0.5rem auto 0.8em;
-}
-.videoHolder.flex {
-	justify-content: center;
-	gap: 20px;
 }
 
 /* Browser Sizes */

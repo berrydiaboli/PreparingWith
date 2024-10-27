@@ -1,0 +1,21 @@
+/* FLEX HOLDER */
+.videoList.flex {
+	gap: 10px;
+	flex-flow: column;
+	align-items: stretch;
+	margin-bottom: 1.2rem;
+}
+.videoList.flex>div {
+	justify-content: center;
+	margin: 0;
+	width: auto;
+}
+/* ITEMS */
+.videoList.flex .video {
+	margin-right: 1rem;
+	margin-top: 12px;
+	flex-basis: 540px;
+}
+.videoList.flex .info {
+	flex-basis: 250px;
+}
