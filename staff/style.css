@@ -1,6 +1,7 @@
 /* this is cause i wanna keep things Relatively Organized */
 .staffHolder.flex {
 	justify-content: center;
+	align-items: stretch;
 	gap: 20px;
 }
 .staffHolder>figure {
@@ -22,53 +23,103 @@
 	height: auto;
 	display: block;
 }
+
+/* FAKE STAFF ICONS */
+#gusbrick .staffIcon {
+	content: url(img/staff/fake/gusbrick_norm.gif);
+}
+#gusbrick:hover .staffIcon {
+	content: url(img/staff/fake/gusbrick_hover.gif);
+}
+
+#noise .staffIcon {
+	content: url(img/staff/fake/noise_norm.gif);
+}
+#noise:hover .staffIcon {
+	content: url(img/staff/fake/noise_hover.gif);
+}
+
+#pep .staffIcon {
+	content: url(img/staff/fake/pep_norm.gif);
+}
+#pep:hover .staffIcon {
+	content: url(img/staff/fake/pep_hover.gif);
+}
+
+#pepper .staffIcon {
+	content: url(img/staff/fake/pepper_norm.gif);
+}
+#pepper:hover .staffIcon {
+	content: url(img/staff/fake/pepper_hover.gif);
+}
+
 /* ACTUAL STAFF ICONS */
-.iconHolder>.staffIcon#berry {
+#berry .staffIcon {
 	content: url(img/staff/true/berry_norm.gif);
 }
-.iconHolder>.staffIcon#berry:hover {
+#berry:hover .staffIcon {
 	content: url(img/staff/true/berry_hover.gif);
 }
 
-.iconHolder>.staffIcon#fran {
-	content: url(img/staff/true/fran_norm.gif);
+#bones .staffIcon {
+	content: url(img/staff/true/bones_norm.gif);
 }
-.iconHolder>.staffIcon#fran:hover {
+#bones:hover .staffIcon {
+	content: url(img/staff/true/bones_hover.gif);
+}
+
+#carrot .staffIcon {
+	content: url(img/staff/true/carrot_norm.gif);
+}
+#carrot:hover .staffIcon {
+	content: url(img/staff/true/carrot_hover.gif);
+}
+
+#fran .staffIcon {
+	content: url(img/staff/true/fran_norm.gif);
+	background-color: #882858; /* ancient cheese */
+}
+#fran:hover .staffIcon {
 	content: url(img/staff/true/fran_hover.gif);
 }
 
-.iconHolder>.staffIcon#makee {
+#makee .staffIcon {
 	content: url(img/staff/true/makee_norm.gif);
+	background-color: #2850A8; /* freezerator */
 }
-.iconHolder>.staffIcon#makee:hover {
+#makee:hover .staffIcon {
 	content: url(img/staff/true/makee_hover.gif);
 }
 
-.iconHolder>.staffIcon#ecuello {
+#ecuello .staffIcon {
 	content: url(img/staff/true/ecuello_norm.gif);
+	background-color: #9FBBD6; /* peppibot factory */
 }
-.iconHolder>.staffIcon#ecuello:hover {
+#ecuello:hover .staffIcon {
 	content: url(img/staff/true/ecuello_hover.gif);
 }
 
-.iconHolder>.staffIcon#lotus {
+#lotus .staffIcon {
 	content: url(img/staff/true/lotus_norm.gif);
+	background-color: #D868A0; /* crust cove */
 }
-.iconHolder>.staffIcon#lotus:hover {
+#lotus:hover .staffIcon {
 	content: url(img/staff/true/lotus_hover.gif);
 }
 
-.iconHolder>.staffIcon#skl {
+#skl .staffIcon {
 	content: url(img/staff/true/skl_norm.gif);
+	background-color: #C34726; /* war */
 }
-.iconHolder>.staffIcon#skl:hover {
+#skl:hover .staffIcon {
 	content: url(img/staff/true/skl_hover.gif);
 }
 
-.iconHolder>.staffIcon#skully {
+#skully .staffIcon {
 	content: url(img/staff/true/skully_norm.gif);
+	background-color: #462C55; /* john gutter */
 }
-.iconHolder>.staffIcon#skully:hover {
+#skully:hover .staffIcon {
 	content: url(img/staff/true/skully_hover.gif);
 }
 
