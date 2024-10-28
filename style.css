@@ -49,6 +49,21 @@
 	}
 }
 
+@keyframes peppinohitanim {
+	0% {
+		transform: translateX(-71) translateY(-110px) rotate(0);
+		opacity: 100;
+	}
+	80% {
+		transform: translateX(1100px) translateY(-90px) rotate(400deg);
+		opacity: 100;
+	}
+	100% {
+		transform: translateX(1400px) translateY(-90px) rotate(500deg);
+		opacity: 0;
+	}
+}
+
 /* STYLING */
 a {
 	color: #A80860;
@@ -399,11 +414,17 @@ figure>.video {
 /*CUSTOM ASSETS & ANIMATIONS */
 
 .peppinohit {
-	position: fixed;
-	z-index: 2;
-	transform: translateX(150px) translateY(-450px);
-}
+	position:fixed;
+	z-index: 1;
+	bottom: 0;
+	left: 0;
+	transform: translateY(-110px) translateX(-71px);
 
+}
+.peppinohit.transformed {
+	animation: peppinohitanim 0.7s linear;
+	animation-iteration-count: 1;
+}
 /* HOME PAGE */
 #frontFlex {
 	gap: 10px 20px;

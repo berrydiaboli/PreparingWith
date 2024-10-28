@@ -1,10 +1,9 @@
 const img = document.getElementById('FooterTabImg');
 const groupboxes = document.querySelectorAll('.footergroups');
 const tabboxes = document.querySelectorAll('.FooterTab'); 
-const peppinohit = document.querySelectorAll('.peppinohit'); 
-const peppinohitimg = document.getElementById('peppinohitimg');
+const peppinohit = document.querySelectorAll('.peppinohit');
 let buttonstate = true;
-let peppinohitanim = true;
+let animpeppinohit = true;
 
 img.addEventListener('click', () => {
     buttonstate = !buttonstate; 
@@ -25,10 +24,9 @@ img.addEventListener('click', () => {
         }
     });
 
-    peppinohit.forEach(() => {
-        if (!buttonstate === peppinohitanim ) {
-            peppinohitimg.src = 'img/PeppinoHit.gif';
-            peppinohitanim  = "NULL";
+    peppinohit.forEach((box) => {
+        if (!buttonstate === animpeppinohit) {
+            box.classList.add('transformed')
         }
     });
 

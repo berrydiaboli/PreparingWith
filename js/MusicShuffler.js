@@ -24,11 +24,41 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
 {
-	name: "NAME OF SONG",
-	artist: "ARTIST NAME",
+	name: "Gustavo & Brick",
+	artist: "Bonegouls",
 	image: "img/PWAlbum.png",
-	path: "music/SONG.mp3"
-}
+	path: "music/gustavo and brick.mp3"
+},
+{
+	name: "Maurice Beat",
+	artist: "Bonegouls",
+	image: "img/PWAlbum.png",
+	path: "music/maurice beat.mp3"
+},
+{
+	name: "Pepperman Jazz",
+	artist: "Bonegouls",
+	image: "img/PWAlbum.png",
+	path: "music/pepperman_jazz v3.mp3"
+},
+{
+	name: "Pizzahead Scheme",
+	artist: "Bonegouls",
+	image: "img/PWAlbum.png",
+	path: "music/pizzahead scheme.mp3"
+},
+{
+	name: "Snick",
+	artist: "Bonegouls",
+	image: "img/PWAlbum.png",
+	path: "music/snick v1.mp3"
+},
+{
+	name: "The Vigi",
+	artist: "Bonegouls",
+	image: "img/PWAlbum.png",
+	path: "music/vigi final.mp3"
+},
 ];
 
 // Shuffle function to randomize track order
