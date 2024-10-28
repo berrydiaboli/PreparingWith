@@ -14,13 +14,13 @@
 /* STAFF ICONS */
 .iconHolder {
 	position: relative;
-	width: fit-content;
+	width: 100px;
+	height: 100px;
 	margin: 0 auto;
 }
 .iconHolder>.staffIcon {
 	max-height: 100px;
 	width: auto;
-	height: 100%;
 	height: auto;
 	display: block;
 }
@@ -38,6 +38,16 @@
 }
 #fake:hover .staffIcon {
 	content: url(img/staff/fake/fake_hover.gif);
+}
+#fake:hover .iconHolder:after {
+	content: '';
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	display: block;
+	width: 140px;
+	height: 140px;
+	background-image: url(img/staff/fake/fake_hands.gif);
 }
 
 #gusbrick .staffIcon {
@@ -89,6 +99,20 @@
 	content: url(img/staff/fake/pepper_hover.gif);
 }
 
+#stick .staffIcon {
+	content: url(img/staff/fake/stick_norm.gif);
+}
+#stick:hover .staffIcon {
+	content: url(img/staff/fake/stick_hover.gif);
+}
+
+#vigi .staffIcon {
+	content: url(img/staff/fake/vigi_norm.gif);
+}
+#vigi:hover .staffIcon {
+	content: url(img/staff/fake/vigi_hover.gif);
+}
+
 /* ACTUAL STAFF ICONS */
 #berry .staffIcon {
 	content: url(img/staff/true/berry_norm.gif);
@@ -110,6 +134,13 @@
 }
 #carrot:hover .staffIcon {
 	content: url(img/staff/true/carrot_hover.gif);
+}
+
+#dough .staffIcon {
+	content: url(img/staff/true/dough_norm.gif);
+}
+#dough:hover .staffIcon {
+	content: url(img/staff/true/dough_hover.gif);
 }
 
 #fran .staffIcon {
