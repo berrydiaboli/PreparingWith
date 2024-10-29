@@ -23,18 +23,29 @@
 	width: auto;
 	height: auto;
 	display: block;
+	content: url(img/staff/placeholder.gif);
 }
 
 /* FAKE STAFF ICONS */
 #bucket .staffIcon {
 	content: url(img/staff/fake/bucket_norm.gif);
+	background-color: #4e6786; /* peppibot factory */
 }
 #bucket:hover .staffIcon {
 	content: url(img/staff/fake/bucket_hover.gif);
 }
 
+#dougie .staffIcon {
+	content: url(img/staff/fake/dougie_norm.gif);
+	background-color: #d868a0; /* comic where dougie debutes */
+}
+#dougie:hover .staffIcon {
+	content: url(img/staff/fake/dougie_hover.gif);
+}
+
 #fake .staffIcon {
 	content: url(img/staff/fake/fake_norm.gif);
+	background-color: #9c7a9c; /* fake pep arena bg color */
 }
 #fake:hover .staffIcon {
 	content: url(img/staff/fake/fake_hover.gif);
@@ -52,6 +63,7 @@
 
 #gusbrick .staffIcon {
 	content: url(img/staff/fake/gusbrick_norm.gif);
+	background-color: #986e48; /* gnome forest tree bg */
 }
 #gusbrick:hover .staffIcon {
 	content: url(img/staff/fake/gusbrick_hover.gif);
@@ -59,6 +71,7 @@
 
 #incognito .staffIcon {
 	content: url(img/staff/fake/incognito_norm.gif);
+	background-color: #c3bda7; /* noisette cafe window */
 }
 #incognito:hover .staffIcon {
 	content: url(img/staff/fake/incognito_hover.gif);
@@ -66,6 +79,7 @@
 
 #maurice .staffIcon {
 	content: url(img/staff/fake/maurice_norm.gif);
+	background-color: #d89060; /* swap mode end card */
 }
 #maurice:hover .staffIcon {
 	content: url(img/staff/fake/maurice_hover.gif);
@@ -73,6 +87,7 @@
 
 #noise .staffIcon {
 	content: url(img/staff/fake/noise_norm.gif);
+	background-color: #905ed4; /* noise arena bg */
 }
 #noise:hover .staffIcon {
 	content: url(img/staff/fake/noise_hover.gif);
@@ -80,6 +95,7 @@
 
 #noisette .staffIcon {
 	content: url(img/staff/fake/noisette_norm.gif);
+	background-color: #c3bda7; /* noisette cafe window */
 }
 #noisette:hover .staffIcon {
 	content: url(img/staff/fake/noisette_hover.gif);
@@ -87,6 +103,7 @@
 
 #pep .staffIcon {
 	content: url(img/staff/fake/pep_norm.gif);
+	background-color: #7a6f8f; /* john gutter ourple */
 }
 #pep:hover .staffIcon {
 	content: url(img/staff/fake/pep_hover.gif);
@@ -94,6 +111,7 @@
 
 #pepper .staffIcon {
 	content: url(img/staff/fake/pepper_norm.gif);
+	background-color: #5e5e8b; /* pepperman arena bg */
 }
 #pepper:hover .staffIcon {
 	content: url(img/staff/fake/pepper_hover.gif);
@@ -101,6 +119,7 @@
 
 #stick .staffIcon {
 	content: url(img/staff/fake/stick_norm.gif);
+	background-color: #907870; /* unused stick arena floor */
 }
 #stick:hover .staffIcon {
 	content: url(img/staff/fake/stick_hover.gif);
@@ -108,6 +127,7 @@
 
 #vigi .staffIcon {
 	content: url(img/staff/fake/vigi_norm.gif);
+	background-color: #5896d4; /* vigi arena bg */
 }
 #vigi:hover .staffIcon {
 	content: url(img/staff/fake/vigi_hover.gif);
@@ -116,6 +136,7 @@
 /* ACTUAL STAFF ICONS */
 #berry .staffIcon {
 	content: url(img/staff/true/berry_norm.gif);
+	background-color: #B03000; /* bloodsauce dungeon */
 }
 #berry:hover .staffIcon {
 	content: url(img/staff/true/berry_hover.gif);
@@ -138,6 +159,7 @@
 
 #dough .staffIcon {
 	content: url(img/staff/true/dough_norm.gif);
+	background-color: #c88048; /* fastfood saloon */
 }
 #dough:hover .staffIcon {
 	content: url(img/staff/true/dough_hover.gif);
@@ -189,6 +211,14 @@
 }
 #skully:hover .staffIcon {
 	content: url(img/staff/true/skully_hover.gif);
+}
+
+#zaid .staffIcon {
+	content: url(img/staff/true/zaid_norm.gif);
+	background-color: #C34726; /* war */
+}
+#zaid:hover .staffIcon {
+	content: url(img/staff/true/zaid_hover.gif);
 }
 
 /* STAFF CREDIT LINKS */
