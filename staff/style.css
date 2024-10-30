@@ -173,12 +173,36 @@
 	content: url(img/staff/true/fran_hover.gif);
 }
 
+#gab .staffIcon {
+	content: url(img/staff/true/gab_norm.gif);
+	background-color: #c88048; /* fastfood saloon */
+}
+#gab:hover .staffIcon {
+	content: url(img/staff/true/gab_hover.gif);
+}
+
+#kitt .staffIcon {
+	content: url(img/staff/true/kitt_norm.gif);
+	background-color: #A850F8; /* deepdish 9 */
+}
+#kitt:hover .staffIcon {
+	content: url(img/staff/true/kitt_hover.gif);
+}
+
 #makee .staffIcon {
 	content: url(img/staff/true/makee_norm.gif);
 	background-color: #2850A8; /* freezerator */
 }
 #makee:hover .staffIcon {
 	content: url(img/staff/true/makee_hover.gif);
+}
+
+#moose .staffIcon {
+	content: url(img/staff/true/moose_norm.gif);
+	background-color: #FFF; /* deepdish 9 */
+}
+#moose:hover .staffIcon {
+	content: url(img/staff/true/moose_hover.gif);
 }
 
 #ecuello .staffIcon {
@@ -211,6 +235,14 @@
 }
 #skully:hover .staffIcon {
 	content: url(img/staff/true/skully_hover.gif);
+}
+
+#wild .staffIcon {
+	content: url(img/staff/true/wild_norm.gif);
+	background-color: #882858; /* ancient cheese */
+}
+#wild:hover .staffIcon {
+	content: url(img/staff/true/wild_hover.gif);
 }
 
 #zaid .staffIcon {
@@ -261,6 +293,9 @@ ul.creditLink>li img.sheezy {
 }
 ul.creditLink>li img.youtube {
 	object-position: -124px 0;
+}
+ul.creditLink>li img.site {
+	object-position: -155px 0;
 }
 
 /* SITE CREDITS */
