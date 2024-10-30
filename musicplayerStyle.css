@@ -1,12 +1,3 @@
-@keyframes AlbumSpin {
-	0% {
-		transform: rotate(0deg)
-	}
-	100% {
-		transform: rotate(360deg);
-	}
-}
-
 .player {
 	height: 100%;
 	display: flex;
@@ -20,22 +11,7 @@
 	align-items: center;
 	flex-direction:column;
 	justify-content: center;
-}
-
-.track-art {
-	z-index: -5;
-	height: 300px;
-	width: 300px;
-	top: 0px;
-	opacity: 70%;
-	position: absolute;
-	clip-path: inset(0px 0 0px 0);
-	background-size: cover;
-	pointer-events: none;
-}
-
-.track-art.transformed {
-	animation: AlbumSpin 20s linear infinite;
+	background-color: #00000062;
 }
 
 .track-name, .track-artist {
@@ -49,12 +25,12 @@
 				1px 1px 0 #000000;
 }
 .track-name {
-	font-size: clamp(16px, 3vw, 28px);
+	font-size: 28px;
 	text-align: center;
 }
 
 .track-artist {
-	font-size: clamp(13px, 2vw, 22px);
+	font-size: 22px;
 	text-wrap: nowrap;
 }
 .buttons {
@@ -69,7 +45,8 @@
 				-1px 1px 0 #000000,
 				1px 1px 0 #000000;
 	padding: 0.2em 0;
-	margin-top: 135px;
+	margin-top: 110px;
+	background-color: #00000062;
 }
 .buttons>div {
 	opacity: 1;
@@ -83,7 +60,9 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color:#FFF
+	color:#FFF;
+	background-color: #00000062;
+	bottom: 0;
 }
 
 /* Modify the appearance of the slider */
@@ -122,7 +101,7 @@
 	bottom: 0px;
 	padding: 0 0.5em;
 	color: rgb(255, 255, 255);
-	font-size: clamp(12px, 1vw, 16px);
+	font-size: 16px;
 	text-shadow: -1px -1px 0 #000000,
 				1px -1px 0 #000000,
 				-1px 1px 0 #000000,
@@ -138,5 +117,5 @@ i.fa-volume-down, i.fa-volume-up {
 i.fa-play-circle, i.fa-pause-circle, i.fa-step-forward, i.fa-step-backward {
 	cursor: pointer;
 	object-fit: contain;
-	font-size: clamp(32px, 3vw, 42px);
+	font-size: 42px;
 }

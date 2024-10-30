@@ -16,7 +16,8 @@ let track_index = 0;
 let isPlaying = false;
 let updateTimer;
 
-const AlbumAnimation = document.querySelectorAll('.track-art'); 
+const AlbumAnimation = document.querySelectorAll('.track-art');
+const AlbumRaise = document.querySelectorAll('.track-art-wrap');
 
 // Create new audio element
 let curr_track = document.createElement('audio');
@@ -25,38 +26,38 @@ let curr_track = document.createElement('audio');
 let track_list = [
 {
 	name: "Gustavo & Brick",
-	artist: "Bonegouls",
-	image: "img/PWAlbum.png",
+	artist: "Boneghouls",
+	image: "../img/PWAlbum.png",
 	path: "music/gustavo and brick.mp3"
 },
 {
 	name: "Maurice Beat",
-	artist: "Bonegouls",
-	image: "img/PWAlbum.png",
+	artist: "Boneghouls",
+	image: "../img/PWAlbum.png",
 	path: "music/maurice beat.mp3"
 },
 {
 	name: "Pepperman Jazz",
-	artist: "Bonegouls",
-	image: "img/PWAlbum.png",
+	artist: "Boneghouls",
+	image: "../img/PWAlbum.png",
 	path: "music/pepperman_jazz v3.mp3"
 },
 {
 	name: "Pizzahead Scheme",
-	artist: "Bonegouls",
-	image: "img/PWAlbum.png",
+	artist: "Boneghouls",
+	image: "../img/PWAlbum.png",
 	path: "music/pizzahead scheme.mp3"
 },
 {
 	name: "Snick",
-	artist: "Bonegouls",
-	image: "img/PWAlbum.png",
+	artist: "Boneghouls",
+	image: "../img/PWAlbum.png",
 	path: "music/snick v1.mp3"
 },
 {
 	name: "The Vigi",
-	artist: "Bonegouls",
-	image: "img/PWAlbum.png",
+	artist: "Boneghouls",
+	image: "../img/PWAlbum.png",
 	path: "music/vigi final.mp3"
 },
 ];
@@ -107,15 +108,21 @@ function playTrack() {
 	isPlaying = true;
 	playpause_btn.innerHTML = '<i class="fa fa-pause-circle fa-2x"></i>';
 	AlbumAnimation.forEach((box) => {
-            box.classList.add('transformed');
+        box.classList.add('transformed');
+    });
+	AlbumRaise.forEach((box) => {
+        box.classList.add('transformed');
     });
 }
   
 function pauseTrack() {
 	curr_track.pause();
 	isPlaying = false;
-	playpause_btn.innerHTML = '<i class="fa fa-play-circle fa-2x"></i>';;
+	playpause_btn.innerHTML = '<i class="fa fa-play-circle fa-2x"></i>';
 	AlbumAnimation.forEach((box) => {
+		box.classList.remove('transformed');
+	});
+	AlbumRaise.forEach((box) => {
 		box.classList.remove('transformed');
 	});
 }
