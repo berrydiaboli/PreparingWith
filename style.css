@@ -94,6 +94,24 @@ blockquote>p:first-of-type {
 blockquote>p:last-of-type {
 	margin-bottom: 0;
 }
+button {
+	background-color: #f878b0;
+	background-clip: content-box;
+	border: 1px solid black;
+	border-image: url(img/button.png) 15 / 15px;
+	font-family: inherit;
+	font-size: inherit;
+	padding: 0.5em;
+	display: block;
+}
+button a, button a:hover {
+	color: black;
+}
+button:hover {
+	background-color: #e85098;
+	border-image: url(img/buttonHover.png) 15 / 15px;
+	cursor: pointer;
+}
 html {
 	background-color: #e85098;
 	background-image: url(img/PWP-scrolling-fade.png);
@@ -424,6 +442,11 @@ figure>.video {
 .peppinohit.transformed {
 	animation: peppinohitanim 0.7s linear;
 	animation-iteration-count: 1;
+}
+/* NOT FOUND */
+#notFoundImg {
+	display: block;
+	margin: 0.5em auto;
 }
 /* HOME PAGE */
 #frontFlex {
