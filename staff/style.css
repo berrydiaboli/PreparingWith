@@ -134,6 +134,14 @@
 }
 
 /* ACTUAL STAFF ICONS */
+#beefy .staffIcon {
+	content: url(img/staff/true/beefy_norm.gif);
+	background-color: #462C55; /* john gutter */
+}
+#beefy:hover .staffIcon {
+	content: url(img/staff/true/beefy_hover.gif);
+}
+
 #berry .staffIcon {
 	content: url(img/staff/true/berry_norm.gif);
 	background-color: #B03000; /* bloodsauce dungeon */
@@ -312,9 +320,22 @@ ul.creditLink>li img.soundcloud {
 }
 
 /* SITE CREDITS */
-.flex#siteCredit {
-	
+#siteCredit p, #siteCredit h4, #siteCredit h5, #siteCredit h6 {
+	margin: 0.5em 0;
+}
+#siteCredit>div {
+	width: auto;
 }
 .flex#siteCredit>div {
-	flex-basis: 250px;
+	flex-basis: 400px;
+}
+.subCredit>div {
+	flex-basis: 150px;
+}
+.subCredit>div h5, .subCredit>div h6 {
+	border-bottom: 2px solid black;
+	border-image: url(../img/PTWiki-underlineborder.png) 0 0 2 0 / 0 0 2px 0 round round;
+}
+.subCredit>div ul {
+	margin: 0.5em 0;
 }
