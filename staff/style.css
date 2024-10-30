@@ -206,6 +206,14 @@
 	content: url(img/staff/true/kitt_hover.gif);
 }
 
+#lolo .staffIcon {
+	content: url(img/staff/true/lolo_norm.gif);
+	background-color: #9FBBD6; /* peppibot factory */
+}
+#lolo:hover .staffIcon {
+	content: url(img/staff/true/lolo_hover.gif);
+}
+
 #makee .staffIcon {
 	content: url(img/staff/true/makee_norm.gif);
 	background-color: #2850A8; /* freezerator */
@@ -252,6 +260,14 @@
 }
 #skully:hover .staffIcon {
 	content: url(img/staff/true/skully_hover.gif);
+}
+
+#toon .staffIcon {
+	content: url(img/staff/true/toon_norm.gif);
+	background-color: #58C000; /* golf */
+}
+#toon:hover .staffIcon {
+	content: url(img/staff/true/toon_hover.gif);
 }
 
 #wild .staffIcon {
