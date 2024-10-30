@@ -144,6 +144,7 @@
 
 #bones .staffIcon {
 	content: url(img/staff/true/bones_norm.gif);
+	background-color: #305078; /* pizzascare */
 }
 #bones:hover .staffIcon {
 	content: url(img/staff/true/bones_hover.gif);
@@ -181,6 +182,14 @@
 	content: url(img/staff/true/gab_hover.gif);
 }
 
+#jel .staffIcon {
+	content: url(img/staff/true/jel_norm.gif);
+	background-color: #FFF; /*  */
+}
+#jel:hover .staffIcon {
+	content: url(img/staff/true/jel_hover.gif);
+}
+
 #kitt .staffIcon {
 	content: url(img/staff/true/kitt_norm.gif);
 	background-color: #A850F8; /* deepdish 9 */
@@ -199,7 +208,7 @@
 
 #moose .staffIcon {
 	content: url(img/staff/true/moose_norm.gif);
-	background-color: #FFF; /* deepdish 9 */
+	background-color: #D07808; /* pig city */
 }
 #moose:hover .staffIcon {
 	content: url(img/staff/true/moose_hover.gif);
@@ -239,7 +248,7 @@
 
 #wild .staffIcon {
 	content: url(img/staff/true/wild_norm.gif);
-	background-color: #882858; /* ancient cheese */
+	background-color: #C88048; /* fastfood saloon */
 }
 #wild:hover .staffIcon {
 	content: url(img/staff/true/wild_hover.gif);
@@ -269,6 +278,7 @@ ul.creditLink>li, ul.creditLink>li a {
 ul.creditLink>li a, ul.creditLink>li img {
 	height: 30px;
 	width: 30px;
+	overflow: hidden;
 }
 ul.creditLink>li img {
 	content: url(img/credit/siteIcons.png);
@@ -296,6 +306,9 @@ ul.creditLink>li img.youtube {
 }
 ul.creditLink>li img.site {
 	object-position: -155px 0;
+}
+ul.creditLink>li img.soundcloud {
+	object-position: -186px 0;
 }
 
 /* SITE CREDITS */
