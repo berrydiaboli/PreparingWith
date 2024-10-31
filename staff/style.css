@@ -192,7 +192,7 @@
 
 #jel .staffIcon {
 	content: url(img/staff/true/jel_norm.gif);
-	background-color: #FFF; /*  */
+	background-color: #B03000; /* bloodsauce dungeon */
 }
 #jel:hover .staffIcon {
 	content: url(img/staff/true/jel_hover.gif);
