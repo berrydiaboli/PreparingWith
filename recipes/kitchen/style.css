@@ -4,6 +4,10 @@
 .flex#artGallery>figure {
 	flex-basis: 200px;
 }
+figure.left, figure.right, .flex#artGallery>figure {
+	font-size: 0.6rem;
+	font-family: "Small Pizza";
+}
 .flex#artGallery>figure>img {
 	max-height: 300px;
 }
