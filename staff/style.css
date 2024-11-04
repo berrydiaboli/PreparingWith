@@ -206,6 +206,14 @@
 	content: url(img/staff/true/kitt_hover.gif);
 }
 
+#kat .staffIcon {
+	content: url(img/staff/true/kat_norm.gif);
+	background-color: #982800; /* gnome forest */
+}
+#kat:hover .staffIcon {
+	content: url(img/staff/true/kat_hover.gif);
+}
+
 #lolo .staffIcon {
 	content: url(img/staff/true/lolo_norm.gif);
 	background-color: #9FBBD6; /* peppibot factory */
