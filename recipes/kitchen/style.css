@@ -1,0 +1,47 @@
+.flex#artGallery {
+	justify-content: center;
+}
+.flex#artGallery>figure {
+	flex-basis: 200px;
+}
+.flex#artGallery>figure>img {
+	max-height: 300px;
+}
+figure.left, figure.right {
+	box-sizing: border-box;
+	max-width: 300px;
+	width: 100%;
+	height: auto;
+}
+figure.small {
+	max-width: 250px;
+}
+figure.large {
+	max-width: 400px;
+}
+figure.left {
+	float: left;
+	margin: 0 1em 1em 0;
+}
+figure.right {
+	float: right;
+	margin: 0 1em 0 1em;
+}
+@media only screen and (max-width: 600px) {
+	figure.left, figure.right {
+		margin: 1em auto 1em;
+		float: none;
+	}
+}
+@media only screen and (max-width: 640px) {
+	figure.left:not(.small), figure.right:not(.small) {
+		margin: 1em auto 1em;
+		float: none;
+	}
+}
+@media only screen and (max-width: 750px) {
+	figure.left.large, figure.right.large {
+		margin: 1em auto 1em;
+		float: none;
+	}
+}
