@@ -60,6 +60,12 @@ let track_list = [
 	image: "../img/PWAlbum.png",
 	path: "music/vigi final.mp3"
 },
+{
+	name: "Mort The Chicken",
+	artist: "Mambo - Skullduggery",
+	image: "../img/PWAlbum.png",
+	path: "music/Better Mort Mambo.mp3"
+}
 ];
 
 // Shuffle function to randomize track order
