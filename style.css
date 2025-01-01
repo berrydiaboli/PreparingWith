@@ -313,6 +313,26 @@ s {
 small {
 	font-size: 0.7em;
 }
+img.comic {
+	aspect-ratio: 3287/1867;
+	border: 1px solid black;
+	max-height: 500px;
+	width: 100%;
+	height: auto;
+}
+.comics:not(.flex) {
+	margin: 0 auto;
+}
+.comics.flex img.comic {
+	margin: 0.5rem auto;
+}
+.comics.flex>figure {
+	flex-basis: 300px;
+	margin: 0;
+}
+.comics.flex:last-child {
+	margin-bottom: 1rem;
+}
 .flex {
 	display: flex;
 	flex-flow: row wrap;
