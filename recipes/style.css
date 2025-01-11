@@ -19,3 +19,14 @@
 .videoList.flex .info {
 	flex-basis: 250px;
 }
+
+/* VIDEO LISTS*/
+.info>p:first-of-type {
+	border-bottom: 2px solid black;
+	border-image: url(../img/PTWiki-underlineborder.png) 0 0 2 0 / 0 0 2px 0 round round;
+	padding-bottom: 1em;
+}
+.info>p:not(:first-of-type) { /* Credits */
+	margin: 0.4em 0;
+	font-size: 0.9em;
+}
