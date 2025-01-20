@@ -323,8 +323,11 @@ img.comic {
 .comics:not(.flex) {
 	margin: 0 auto;
 }
-.comics.flex img.comic {
+.comics.flex figure>img.comic, .comics.flex figure>a {
 	margin: 0.5rem auto;
+}
+.comics.flex figure>a>img.comic {
+	margin: 0.5rem auto 0;
 }
 .comics.flex>figure {
 	flex-basis: 300px;
