@@ -215,7 +215,7 @@ body>header {
 body>header:hover {
 	animation: LogoWOAH 1s linear infinite;
 }
-body>header>img {
+body>header img {
 	filter: drop-shadow(2px 2px 0px rgb(0, 0, 0));
 }
 hr {

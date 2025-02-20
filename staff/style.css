@@ -254,6 +254,14 @@
 	content: url(img/staff/true/lotus_hover.gif);
 }
 
+#seji .staffIcon {
+	content: url(img/staff/true/seji_norm.gif);
+	background-color: #C34726; /* war */
+}
+#seji:hover .staffIcon {
+	content: url(img/staff/true/seji_hover.gif);
+}
+
 #skel .staffIcon {
 	content: url(img/staff/true/skel_norm.gif);
 	background-color: #C34726; /* war */
