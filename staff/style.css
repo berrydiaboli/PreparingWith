@@ -230,6 +230,14 @@
 	content: url(img/staff/true/makee_hover.gif);
 }
 
+#moon .staffIcon {
+	content: url(img/staff/true/moon_norm.gif);
+	background-color: #C34726; /* war */
+}
+#moon:hover .staffIcon {
+	content: url(img/staff/true/moon_hover.gif);
+}
+
 #moose .staffIcon {
 	content: url(img/staff/true/moose_norm.gif);
 	background-color: #D07808; /* pig city */
