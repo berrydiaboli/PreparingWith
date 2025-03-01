@@ -214,6 +214,14 @@
 	content: url(img/staff/true/kat_hover.gif);
 }
 
+#lex .staffIcon {
+	content: url(img/staff/true/lex_norm.gif);
+	background-color: #A850F8; /* deep-dish 9 */
+}
+#lex:hover .staffIcon {
+	content: url(img/staff/true/lex_hover.gif);
+}
+
 #lolo .staffIcon {
 	content: url(img/staff/true/lolo_norm.gif);
 	background-color: #9FBBD6; /* peppibot factory */
@@ -232,7 +240,7 @@
 
 #moon .staffIcon {
 	content: url(img/staff/true/moon_norm.gif);
-	background-color: #C34726; /* war */
+	background-color: #462C55; /* john gutter */
 }
 #moon:hover .staffIcon {
 	content: url(img/staff/true/moon_hover.gif);
