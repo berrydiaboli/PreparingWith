@@ -302,6 +302,14 @@
 	content: url(img/staff/true/skully_hover.gif);
 }
 
+#squid .staffIcon {
+	content: url(img/staff/true/dakota_normal.gif);
+	background-color: #c88048; /* fastfood saloon */
+}
+#squid:hover .staffIcon {
+	content: url(img/staff/true/dakota_hover.gif);
+}
+
 #toon .staffIcon {
 	content: url(img/staff/true/toon_norm.gif);
 	background-color: #58C000; /* golf */
@@ -310,12 +318,28 @@
 	content: url(img/staff/true/toon_hover.gif);
 }
 
+#wallet .staffIcon {
+	content: url(img/staff/true/Walletlad_normal.gif);
+	background-color: #B03000; /* bloodsauce dungeon */
+}
+#wallet:hover .staffIcon {
+	content: url(img/staff/true/Walletlad_hover.gif);
+}
+
 #wild .staffIcon {
 	content: url(img/staff/true/wild_norm.gif);
 	background-color: #C88048; /* fastfood saloon */
 }
 #wild:hover .staffIcon {
 	content: url(img/staff/true/wild_hover.gif);
+}
+
+#virus .staffIcon {
+	content: url(img/staff/true/Virus_norm.gif);
+	background-color: #449eda /* fun farm */
+}
+#virus:hover .staffIcon {
+	content: url(img/staff/true/Virus_Hover.gif);
 }
 
 #zaid .staffIcon {
