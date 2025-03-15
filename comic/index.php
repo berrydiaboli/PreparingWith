@@ -1,36 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<link rel="icon" type="image/x-icon" href="../img/icon.png">
-		<link rel="stylesheet" href="style.css">
-		<link rel="stylesheet" href="../style.css">
-		<link rel="stylesheet" href="../musicplayerStyle.css">
-		<!-- Load FontAwesome icons for the music player cause I am lazy to slap img icons -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="language" content="en-US">
-		<!-- EMBED PROPERTIES -->
-		<meta property="og:title" content="Preparing With Peppino">
-		<meta property="og:type" content="">
-		<meta property="og:description" content="">
+		<?php include $_SERVER['DOCUMENT_ROOT']."/include/head.html"?>
+		<link rel="stylesheet" href="style.css"> <!-- page exclusive style -->
 		
 		<title>Preparing With: Comics</title>
 	</head>
 	
 	<body>
-		<header>
-			<a href="../declaration/index.html" target="_top"><img src="../img/logo.png" alt="Preparing With" /></a>
-		</header>
-		<nav>
-			<ul>
-				<li><a href="../index.html" target="_parent">Home</a></li>
-				<li><a href="../store/index.html" target="_parent">Store</a></li>
-				<li><a href="../recipes/index.html" target="_parent">Recipes</a></li>
-				<li><a href="../staff/index.html" target="_parent">Staff</a></li>
-			</ul>
-		</nav>
-		<div class="pageBody">
+		<?php include $_SERVER['DOCUMENT_ROOT']."/include/navigation.html"?>
+		<main class="pageBody">
 			<h2>Comics</h2>
 			<p>Here's an archive of all of our comics. Feel free to take a peek!</p>
 			<p>Click on the image to view the full size.</p>
@@ -76,9 +55,8 @@
 					<figcaption>Written and drawn by Ecuelo.</figcaption>
 				</figure>
 			</div>
-		</div>
-		<footer>
-			<div class="footercredits">Pizza Tower &copy; Tour de Pizza 2023. Not affiliated with Tour de Pizza.</div>
-		</footer>
+		</main>
+		<?php include $_SERVER['DOCUMENT_ROOT']."/include/footer.html"?>
 	</body>
+	<?php include $_SERVER['DOCUMENT_ROOT']."/include/musicPlayer.php"?>
 </html>

@@ -27,44 +27,44 @@ let track_list = [
 {
 	name: "Gustavo & Brick",
 	artist: "Boneghouls",
-	image: "../img/PWAlbum.png",
-	path: "music/gustavo and brick.mp3"
+	image: "/img/PWAlbum.png",
+	path: "/music/gustavo and brick.mp3"
 },
 {
 	name: "Maurice Beat",
 	artist: "Boneghouls",
-	image: "../img/PWAlbum.png",
-	path: "music/maurice beat.mp3"
+	image: "/img/PWAlbum.png",
+	path: "/music/maurice beat.mp3"
 },
 {
 	name: "Pepperman Jazz",
 	artist: "Boneghouls",
-	image: "../img/PWAlbum.png",
-	path: "music/pepperman_jazz v3.mp3"
+	image: "/img/PWAlbum.png",
+	path: "/music/pepperman_jazz v3.mp3"
 },
 {
 	name: "Pizzahead Scheme",
 	artist: "Boneghouls",
-	image: "../img/PWAlbum.png",
-	path: "music/pizzahead scheme.mp3"
+	image: "/img/PWAlbum.png",
+	path: "/music/pizzahead scheme.mp3"
 },
 {
 	name: "Snick",
 	artist: "Boneghouls",
-	image: "../img/PWAlbum.png",
-	path: "music/snick v1.mp3"
+	image: "/img/PWAlbum.png",
+	path: "/music/snick v1.mp3"
 },
 {
 	name: "The Vigi",
 	artist: "Boneghouls",
-	image: "../img/PWAlbum.png",
-	path: "music/vigi final.mp3"
+	image: "/img/PWAlbum.png",
+	path: "/music/vigi final.mp3"
 },
 {
 	name: "Mort The Chicken",
 	artist: "Mambo - Skullduggery",
-	image: "../img/PWAlbum.png",
-	path: "music/Better Mort Mambo.mp3"
+	image: "/img/PWAlbum.png",
+	path: "/music/Better Mort Mambo.mp3"
 }
 ];
 

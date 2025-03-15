@@ -1,36 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<link rel="icon" type="image/x-icon" href="../img/icon.png">
-		<link rel="stylesheet" href="../style.css">
-		<link rel="stylesheet" href="../musicplayerStyle.css">
+		<?php include $_SERVER['DOCUMENT_ROOT']."/include/head.html"?>
 		<link rel="stylesheet" href="style.css"> <!-- page exclusive style -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="language" content="en-US">
-		<!-- EMBED PROPERTIES -->
-		<meta property="og:title" content="Preparing With Peppino">
-		<meta property="og:type" content="">
-		<meta property="og:description" content="">
 		
 		<title>Preparing With: Staff</title>	
 	</head>
 	
 	<body>
-		<header>
-			<a href="../declaration/index.html" target="_top"><img src="../img/logo.png" alt="Preparing With" /></a>
-		</header>
-		<nav>
-			<ul>
-				<li><a href="../index.html" target="_parent">Home</a></li>
-				<li><a href="../store/index.html" target="_parent">Store</a></li>
-				<li><a href="../recipes/index.html" target="_parent">Recipes</a></li>
-				<li><a href="" target="_parent">Staff</a></li>
-			</ul>
-		</nav>
-		<div class="pageBody">
-			<h2>Staff</h2>
+		<?php include $_SERVER['DOCUMENT_ROOT']."/include/navigation.html"?>
+		<main class="pageBody">
+			<h1>Staff</h1>
 			
 			<!-- TEMPLATE 
 				<figure id="skully">
@@ -183,62 +163,9 @@
 				</figure>
 			</div>
 			
-			<p style="text-align:center;"><small><a href="trueStaff.html" target="_parent">Okay, who actually made this?</a></small></p>
-		</div>
-		<footer>
-			<div class="footercredits">Pizza Tower &copy; Tour de Pizza 2023. Not affiliated with Tour de Pizza.</div>
-		</footer>
+			<p style="text-align:center;"><small><a href="trueStaff.php" target="_top">Okay, who actually made this?</a></small></p>
+		</main>
+		<?php include $_SERVER['DOCUMENT_ROOT']."/include/footer.html"?>
 	</body>
-		
-	<!--Peppino Hit-->
-	<img id="peppinohitimg" class="peppinohit" aria-hidden="true" src="../img/pwp-pep-fling.gif" style="pointer-events: none">
-
-	<!--Button Stuff-->
-	<div class="FooterTab">
-		<img id="FooterTabImg" alt="Footer Tab" src="../img/tabfoot.png" style="cursor: pointer;">
-	</div>
-	<!--End of Button-->
-
-	<div class="footergroups">
-		<img src="../img/Mort_The_Chicken_Mambo.png">
-
-		<div class="track-art-wrap">
-			<div class="track-art"></div>
-		</div>
-		
-		<div class="musicsection">
-			<div class="details">
-				<div class="track-name">Track Name</div>
-				<div class="track-artist">Track Artist</div>
-			</div>
-
-			<div class="buttons">
-				<div class="prev-track" onclick="prevTrack()"><i class="fa fa-step-backward fa-1x"></i></div>
-				<div class="playpause-track" onclick="playpauseTrack()"><i class="fa fa-play-circle fa-2x"></i></div>
-				<div class="next-track" onclick="nextTrack()"><i class="fa fa-step-forward fa-1x"></i></div>
-			</div>
-
-			<div class="slider_container">
-				<div class="current-time">00:00</div>
-				<input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
-				<div class="total-duration">00:00</div>
-			</div>
-
-			<div class="slider_container" style="padding-bottom: 10px;">
-				<i class="fa fa-volume-down"></i>
-				<input type="range" min="1" max="100" value="50" class="volume_slider" onchange="setVolume()">
-				<i class="fa fa-volume-up"></i>
-			</div>
-
-			<!-- Load the main script for the player -->
-			<script src="../js/MusicShuffler.js"></script>
-			<!-- Don't touch this again, you know what happened last time -->
-		</div>
-
-	</div>
-	
-	<!--This is for the button-->
-	<script src="../js/footerscript.js"></script>
-
-
+	<?php include $_SERVER['DOCUMENT_ROOT']."/include/musicPlayer.php"?>
 </html>
