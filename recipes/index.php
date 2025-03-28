@@ -187,6 +187,22 @@
 					</div>
 				</div>
 
+			 	<div class="stickyNote flex">
+					<div class="video">
+						<iframe src="https://www.youtube.com/embed/hQBbF5fO0Xw?si=ZU0KskYRAN8BX8K7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+						<div class="border"></div>
+					</div>
+					<div class="info">
+						<h3>Preparing With: Mystery Box</h3>
+						<p><i>Mr. Stick attempts to sell a mystery box to Peppino when in comes the Noise to challenge him with another nearly identical box! Who will win this battle for the bid?</i></p>
+						<p>Animatic and thumbmail by SkytheVirus.</p>
+						<p>Background assisted by Lex.</p>
+						<p>Written by Skullduggery.</p>
+						<p>Edited by SkytheVirus.</p>
+						<p>Music composed by Doughpini.</p>
+					</div>
+				</div>
+
 			</div>
 			
 		</main>
