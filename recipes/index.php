@@ -203,6 +203,22 @@
 					</div>
 				</div>
 
+				<div class="stickyNote flex">
+					<div class="video">
+						<iframe src="https://www.youtube.com/embed/eTqSaQggXws?si=6apvTDTPK-OedZv5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+						<div class="border"></div>
+					</div>
+					<div class="info">
+						<h3>Preparing With: Wehm</h3>
+						<p><i>Let it never be said that Peppino is not a petty man when it comes to dealing with The Noise.</i></p>
+						<p>Thumbmail by Kittanimates.</p>
+						<p>Animatic by BeefyTheStronk and Gabaobab.</p>
+						<p>Written by Doughpini.</p>
+						<p>Edited by SkytheVirus.</p>
+						<p>Music composed by Doughpini.</p>
+					</div>
+				</div>
+
 			</div>
 			
 		</main>
