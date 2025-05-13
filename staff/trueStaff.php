@@ -188,21 +188,6 @@
 					</figcaption>
 				</figure>
 				
-				<figure id="kat">
-					<div class="iconHolder">
-						<img class="staffIcon" aria-hidden="true" />
-						<div class="border"></div>
-					</div>
-					<figcaption>
-						<h5>KwertyKat</h5>
-						<p>Promotional Artist</p>
-						<ul class="creditLink">
-							<li><a href="https://bsky.app/profile/KwertyKat.bsky.social" target="_blank"><img class="bsky" alt="BlueSky" /></a></li>
-							<li><a href="https://www.youtube.com/@KwertyKat" target="_blank"><img class="youtube" alt="YouTube" /></a></li>
-						</ul>
-					</figcaption>
-				</figure>
-				
 				<figure id="lex">
 					<div class="iconHolder">
 						<img class="staffIcon" aria-hidden="true" />
@@ -305,25 +290,6 @@
 						<ul class="creditLink">
 							<li><a href="https://www.tumblr.com/skythevirus" target="_blank"><img class="tumblr" alt="Tumblr" /></a></li>
 							<li><a href="https://www.youtube.com/@skythevirus" target="_blank"><img class="youtube" alt="YouTube" /></a></li>
-						</ul>
-					</figcaption>
-				</figure>
-
-				<figure id="skl">
-					<div class="iconHolder">
-						<img class="staffIcon" aria-hidden="true" />
-						<div class="border"></div>
-					</div>
-					<figcaption>
-						<h5>SuperKirbylover</h5>
-						<p>Art Assistant, Archivist, Animator, Concept Artist, Programmer, Subtitler, Writer</p>
-						<ul class="creditLink">
-							<li><a href="https://www.twitter.com/superkirbylover" target="_blank"><img class="twitter" alt="Twitter" /></a></li>
-							<li><a href="https://bsky.app/profile/superkirbylover.me" target="_blank"><img class="bsky" alt="BlueSky" /></a></li>
-							<li><a href="https://superkirbylover.tumblr.com/" target="_blank"><img class="tumblr" alt="Tumblr" /></a></li>
-							<li><a href="https://sheezy.art/superkirbylover" target="_blank"><img class="sheezy" alt="SheezyArt" /></a></li>
-							<li><a href="https://www.youtube.com/@superkirbylover" target="_blank"><img class="youtube" alt="YouTube" /></a></li>
-							<li><a href="https://superkirbylover.me" target="_blank"><img class="site" alt="Website" /></a></li>
 						</ul>
 					</figcaption>
 				</figure>
