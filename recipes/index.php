@@ -219,6 +219,22 @@
 					</div>
 				</div>
 
+				<div class="stickyNote flex">
+					<div class="video">
+						<iframe src="https://www.youtube.com/embed/7yuKLRm7dTw?si=qByf0WzTfY3DYyuO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+						<div class="border"></div>
+					</div>
+					<div class="info">
+						<h3>Preparing With: We Weed</h3>
+						<p><i>Noisette accidentally bakes the entire crew a batch of "baked" brownies. Scott loses his collective mind while the rest have somehow an even worse time.</i></p>
+						<p>Thumbmail by SkytheVirus.</p>
+						<p>Animatic by uuberwachen.</p>
+						<p>Written by Doughpini and Skullduggery.</p>
+						<p>Edited by SkytheVirus.</p>
+						<p>Music composed by Skullduggery.</p>
+					</div>
+				</div>
+
 			</div>
 			
 		</main>
