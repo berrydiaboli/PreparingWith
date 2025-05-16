@@ -14,7 +14,7 @@
 				<div id="latestVideo" class="flex stickyNote">
 					<h4>Latest Video</h4>
 					<div class="video">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/eTqSaQggXws?si=6apvTDTPK-OedZv5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/7yuKLRm7dTw?si=qByf0WzTfY3DYyuO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 						<div class="border"></div>
 					</div>
 				</div>
