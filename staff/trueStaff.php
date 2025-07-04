@@ -40,7 +40,7 @@
 					</div>
 					<figcaption>
 						<h5>Skullduggery</h5>
-						<p>Founder, Assistant Director, Voice of Peppino, Mr. Stick</p>
+						<p>Founder</p>
 						<ul class="creditLink">
 							<li><a href="https://www.twitter.com/skullduggery183" target="_blank"><img class="twitter" alt="Twitter" /></a></li>
 							<li><a href="https://bsky.app/profile/skullduggery183.bsky.social" target="_blank"><img class="bsky" alt="BlueSky" /></a></li>
@@ -57,10 +57,10 @@
 					</div>
 					<figcaption>
 						<h5>Doughpini</h5>
-						<p>Director, Voice of The Noise</p>
+						<p>Founder, Writer, Voice of The Noise</p>
 						<details style="margin:0;">
 							<summary><small>List of all roles</small></summary>
-							<p><small>Executive Producer, Human Resources, Socials Manager, Legal Consult, Art Director, Head Writer, Sound Technicial, Composer, Vocal Coach, Concept Artist, Comic Artist, Animator, Programmer, Subtitler, Recruiter</small></p>
+							<p><small>Founder, Legal Consult, Head Writer, Vocal Coach, Concept Artist, Animator, Subtitler</small></p>
 						</details>
 						<ul class="creditLink">
 							<li><a href="https://inportant-spam-rsvp.tumblr.com/" target="_blank"><img class="tumblr" alt="Tumblr" /></a></li>
@@ -75,7 +75,7 @@
 					</div>
 					<figcaption>
 						<h5>BerryDiaboli</h5>
-						<p>Network Manager, Voice of Pepperman</p>
+						<p>Founder, Executive Producer, Editor, Network Manager, Voice of Pepperman</p>
 						<ul class="creditLink">
 							<li><a href="https://bsky.app/profile/berrydiaboli.com" target="_blank"><img class="bsky" alt="BlueSky" /></a></li>
 							<li><a href="https://www.youtube.com/@berrydiaboli" target="_blank"><img class="youtube" alt="YouTube" /></a></li>
@@ -87,6 +87,18 @@
 			
 			<div class="flex staffHolder" id="workers">
 				<!-- ANIMATORS -->
+
+				<figure id="alex">
+					<div class="iconHolder">
+						<img class="staffIcon" aria-hidden="true" />
+						<div class="border"></div>
+					</div>
+					<figcaption>
+						<h5>AlexofCanada</h5>
+						<p>Voice of Peppino</p>
+					</figcaption>
+				</figure>
+
 				<figure id="beefy">
 					<div class="iconHolder">
 						<img class="staffIcon" aria-hidden="true" />
@@ -137,6 +149,17 @@
 					</figcaption>
 				</figure>
 				
+				<figure id="freeman">
+					<div class="iconHolder">
+						<img class="staffIcon" aria-hidden="true" />
+						<div class="border"></div>
+					</div>
+					<figcaption>
+						<h5>DigitalFreeman</h5>
+						<p>Concept Artist</p>
+					</figcaption>
+				</figure>
+
 				<figure id="gab">
 					<div class="iconHolder">
 						<img class="staffIcon" aria-hidden="true" />
@@ -195,7 +218,7 @@
 					</div>
 					<figcaption>
 						<h5>Lex</h5>
-						<p>Promotional Artist, Programmer</p>
+						<p>Co-Director, Promotional Artist, Programmer</p>
 					</figcaption>
 				</figure>
 				
@@ -250,6 +273,17 @@
 					</figcaption>
 				</figure>
 				
+				<figure id="pie">
+					<div class="iconHolder">
+						<img class="staffIcon" aria-hidden="true" />
+						<div class="border"></div>
+					</div>
+					<figcaption>
+						<h5>AnAnonymousPie</h5>
+						<p>Concept Artist, Promotional Artist</p>
+					</figcaption>
+				</figure>
+
 				<figure id="seji">
 					<div class="iconHolder">
 						<img class="staffIcon" aria-hidden="true" />
@@ -286,7 +320,11 @@
 					</div>
 					<figcaption>
 						<h5>SkytheVirus</h5>
-						<p>Animator, Storyboard Artist</p>
+						<p>Director, Animator</p>
+						<details style="margin:0;">
+							<summary><small>List of all roles</small></summary>
+							<p><small>Art Director, Storyboard Artist</small></p>
+						</details>
 						<ul class="creditLink">
 							<li><a href="https://www.tumblr.com/skythevirus" target="_blank"><img class="tumblr" alt="Tumblr" /></a></li>
 							<li><a href="https://www.youtube.com/@skythevirus" target="_blank"><img class="youtube" alt="YouTube" /></a></li>
@@ -337,6 +375,17 @@
 							<li><a href="https://volcanolotus.tumblr.com/" target="_blank"><img class="tumblr" alt="Tumblr" /></a></li>
 							<li><a href="https://sheezy.art/volcanolotus" target="_blank"><img class="sheezy" alt="SheezyArt" /></a></li>
 						</ul>
+					</figcaption>
+				</figure>
+
+				<figure id="uuber">
+					<div class="iconHolder">
+						<img class="staffIcon" aria-hidden="true" />
+						<div class="border"></div>
+					</div>
+					<figcaption>
+						<h5>Uuberwachen</h5>
+						<p>Storyboard Artist, Animator</p>
 					</figcaption>
 				</figure>
 				
@@ -401,7 +450,7 @@
 					</div>
 					<figcaption>
 						<h5>CarrotToe</h5>
-						<p>Voice of Vigilante</p>
+						<p>Assistant Producer, Recruiter, Voice of Mr.Stick and Vigilante</p>
 						<ul class="creditLink">
 							<li><a href="https://www.youtube.com/channel/UC2KdwhxjUWdjarUbLgwXWkA" target="_blank"><img class="youtube" alt="YouTube" /></a></li>
 						</ul>
