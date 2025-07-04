@@ -178,7 +178,7 @@
 						<div class="border"></div>
 					</div>
 					<div class="info">
-						<h3>Preparing With: Stuck In Your Mind</h3>
+						<h3>Stuck In Your Mind</h3>
 						<p><i>Mr. Stick and The Noise get a little mambo song stuck in their heads.</i></p>
 						<p>Animatic and thumbmail by Ecuello.</p>
 						<p>Written by Skullduggery and Doughpini.</p>
@@ -193,7 +193,7 @@
 						<div class="border"></div>
 					</div>
 					<div class="info">
-						<h3>Preparing With: Mystery Box</h3>
+						<h3>Mystery Box</h3>
 						<p><i>Mr. Stick attempts to sell a mystery box to Peppino when in comes the Noise to challenge him with another nearly identical box! Who will win this battle for the bid?</i></p>
 						<p>Animatic and thumbmail by SkytheVirus.</p>
 						<p>Background assisted by Lex.</p>
@@ -209,7 +209,7 @@
 						<div class="border"></div>
 					</div>
 					<div class="info">
-						<h3>Preparing With: Wehm</h3>
+						<h3>Wehm</h3>
 						<p><i>Let it never be said that Peppino is not a petty man when it comes to dealing with The Noise.</i></p>
 						<p>Thumbmail by Kittanimates.</p>
 						<p>Animatic by BeefyTheStronk and Gabaobab.</p>
@@ -225,7 +225,7 @@
 						<div class="border"></div>
 					</div>
 					<div class="info">
-						<h3>Preparing With: We Weed</h3>
+						<h3>We Weed</h3>
 						<p><i>Noisette accidentally bakes the entire crew a batch of "baked" brownies. Scott loses his collective mind while the rest have somehow an even worse time.</i></p>
 						<p>Thumbmail by SkytheVirus.</p>
 						<p>Animatic by uuberwachen.</p>
