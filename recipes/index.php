@@ -251,6 +251,22 @@
 					</div>
 				</div>
 
+				<div class="stickyNote flex">
+					<div class="video">
+						<iframe src="https://www.youtube.com/embed/Nm7TJSCmjbM?si=ktjuJGzDN5a9VMf-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+						<div class="border"></div>
+					</div>
+					<div class="info">
+						<h3>Noisey Vampires in Scotland</h3>
+						<p><i>Maurice gets fed up with NTV and has some choice words to say.</i></p>
+						<p>Thumbmail by SkytheVirus.</p>
+						<p>Animatic by squinkydinky.</p>
+						<p>Written by Doughpini and Skullduggery.</p>
+						<p>Edited by SkytheVirus.</p>
+						<p>Music composed by ThesisFi.</p>
+					</div>
+				</div>
+
 			</div>
 			
 		</main>
