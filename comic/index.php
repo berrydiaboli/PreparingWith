@@ -54,6 +54,12 @@
 					<a href="img/preparing with a mystery box.jpg" target="_parent"><img class="comic" title="Preparing With: A Mystery Box" src="img/preparing with a mystery box.jpg" /></a>
 					<figcaption>Written and drawn by Ecuelo.</figcaption>
 				</figure>
+
+				<figure>
+					<a href="img/PWPFlatRate.png" target="_parent"><img class="comic" title="Preparing With: Flat Rate" src="img/PWPFlatRate.png" /></a>
+					<figcaption>Written and drawn by Ecuelo.</figcaption>
+				</figure>
+
 			</div>
 		</main>
 		<?php include $_SERVER['DOCUMENT_ROOT']."/include/footer.html"?>
