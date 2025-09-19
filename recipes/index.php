@@ -267,6 +267,22 @@
 					</div>
 				</div>
 
+				<div class="stickyNote flex">
+					<div class="video">
+						<iframe src="https://www.youtube.com/embed/69i_yOEgqUM?si=fhIfrAT7tlKO2H9c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+						<div class="border"></div>
+					</div>
+					<div class="info">
+						<h3>Here's Jeremy</h3>
+						<p><i>Gustavo gets jealous when his stunt-double Jeremy takes over for the Gustavo and Brick Hour.</i></p>
+						<p>Thumbmail by SkytheVirus.</p>
+						<p>Animatic by Franpun.</p>
+						<p>Written by Doughpini and Skullduggery.</p>
+						<p>Edited by CarrotToe.</p>
+						<p>Music composed by Boneghouls.</p>
+					</div>
+				</div>
+
 			</div>
 			
 		</main>
