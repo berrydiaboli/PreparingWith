@@ -136,11 +136,11 @@
 /* ACTUAL STAFF ICONS */
 
 #alex .staffIcon {
-	content: url(img/staff/true/placeholder.gif);
+	content: url(img/staff/true/Alex_normal.gif);
 	background-color: #c88048; /* fastfood saloon */
 }
 #alex:hover .staffIcon {
-	content: url(img/staff/true/placeholder.gif);
+	content: url(img/staff/true/Alex_hover.gif);
 }
 
 #beefy .staffIcon {
