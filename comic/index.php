@@ -56,7 +56,7 @@
 				</figure>
 
 				<figure>
-					<a href="img/PWPFlatRate.png" target="_parent"><img class="comic" title="Preparing With: Flat Rate" src="img/PWPFlatRate.png" /></a>
+					<a href="img/FlatRate.png" target="_parent"><img class="comic" title="Flat Rate" src="img/FlatRate.png" /></a>
 					<figcaption>Written and drawn by Ecuelo.</figcaption>
 				</figure>
 
