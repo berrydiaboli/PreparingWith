@@ -14,7 +14,7 @@
 				<div id="latestVideo" class="flex stickyNote">
 					<h4>Latest Video</h4>
 					<div class="video">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/69i_yOEgqUM?si=fhIfrAT7tlKO2H9c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/VNkmZedklwI?si=RDT_2aqb_PaNs2CH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 						<div class="border"></div>
 					</div>
 				</div>
@@ -29,7 +29,7 @@
 			
 			<h2>LATEST COMIC</h2>
 			<div class="comics stickyNote">
-				<a href="comic/img/preparing with a mystery box.jpg" target="_parent"><img class="comic" title="Preparing With: a mystery box" src="comic/img/preparing with a mystery box.jpg" /></a>
+				<a href="comic/img/FlatRate.jpg" target="_parent"><img class="comic" title="Preparing With: Flat Rate" src="comic/img/FlatRate.jpg" /></a>
 				<a href="comic/index.php" target="_parent"><button style="margin:0 auto;">List of comics</button></a>
 			</div>
 			
